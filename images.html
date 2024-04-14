@@ -1,0 +1,21 @@
+with open('combined_output.html', 'w') as f:
+    f.write('<html>\n')
+    f.write('<head>\n')
+    f.write('<title>Combined Output</title>\n')
+    f.write('</head>\n')
+    f.write('<body>\n')
+    
+    # Embed Folium map
+    f.write('<h2>Folium Map</h2>\n')
+    with open('map.html', 'r') as map_file:
+        f.write(map_file.read())
+
+    # Embed box plots
+    f.write('<h2>Box Plots</h2>\n')
+    f.write('<iframe src="boxplot_near_dist.html" width="100%" height="400px"></iframe>\n')
+    f.write('<iframe src="boxplot_metric.html" width="100%" height="400px"></iframe>\n')
+    f.write('<iframe src="boxplot_population.html" width="100%" height="400px"></iframe>\n')
+
+    f.write('</body>\n')
+    f.write('</html>\n')
+

@@ -1,0 +1,5322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe43232d5162c8163f9bc3d00d543144 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe43232d5162c8163f9bc3d00d543144" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe43232d5162c8163f9bc3d00d543144 = L.map(
+                "map_fe43232d5162c8163f9bc3d00d543144",
+                {
+                    center: [7.685466448000001, 37.740545136],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e37ab10978bf9f21751fb37a62e8941c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e37ab10978bf9f21751fb37a62e8941c.addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+            var marker_7fd474ecf7a1fcdfd4a54c1ae8637ac5 = L.marker(
+                [8.370314, 36.389334],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_afe7a0c94d369683e9751b1566b13c19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a42d967373967166b3f32dea6b9ff8dd = $(`<div id="html_a42d967373967166b3f32dea6b9ff8dd" style="width: 100.0%; height: 100.0%;">- Dangawaj - 1049769</div>`)[0];
+                popup_afe7a0c94d369683e9751b1566b13c19.setContent(html_a42d967373967166b3f32dea6b9ff8dd);
+            
+        
+
+        marker_7fd474ecf7a1fcdfd4a54c1ae8637ac5.bindPopup(popup_afe7a0c94d369683e9751b1566b13c19)
+        ;
+
+        
+    
+    
+            var marker_38c278e4303d35a845a2c2d749ef6675 = L.marker(
+                [8.337878, 36.412284],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_432ddade3338b8d64aead1996c711e8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f1e125b4778f59b491acd296870617 = $(`<div id="html_70f1e125b4778f59b491acd296870617" style="width: 100.0%; height: 100.0%;">- Leencha - 1049728</div>`)[0];
+                popup_432ddade3338b8d64aead1996c711e8b.setContent(html_70f1e125b4778f59b491acd296870617);
+            
+        
+
+        marker_38c278e4303d35a845a2c2d749ef6675.bindPopup(popup_432ddade3338b8d64aead1996c711e8b)
+        ;
+
+        
+    
+    
+            var marker_8bcfea95f006d4ad6630425f8b15a5ec = L.marker(
+                [8.4057, 36.426262],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_82964a1ed7b2ab8aac79fbcf94bcae6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5d8f242a179410aa89bbcbabc4ce0b4 = $(`<div id="html_c5d8f242a179410aa89bbcbabc4ce0b4" style="width: 100.0%; height: 100.0%;">- Marti - 1049727</div>`)[0];
+                popup_82964a1ed7b2ab8aac79fbcf94bcae6a.setContent(html_c5d8f242a179410aa89bbcbabc4ce0b4);
+            
+        
+
+        marker_8bcfea95f006d4ad6630425f8b15a5ec.bindPopup(popup_82964a1ed7b2ab8aac79fbcf94bcae6a)
+        ;
+
+        
+    
+    
+            var marker_764830f07f9d7a9aa96a8e5b9c03829a = L.marker(
+                [8.329205, 36.417575],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b544da7b2e0d8b1a9bcc428190376bb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9570f8fe825a7a8c8ea88995c30df879 = $(`<div id="html_9570f8fe825a7a8c8ea88995c30df879" style="width: 100.0%; height: 100.0%;">- Dangawaj Qalaa - 1049726</div>`)[0];
+                popup_b544da7b2e0d8b1a9bcc428190376bb2.setContent(html_9570f8fe825a7a8c8ea88995c30df879);
+            
+        
+
+        marker_764830f07f9d7a9aa96a8e5b9c03829a.bindPopup(popup_b544da7b2e0d8b1a9bcc428190376bb2)
+        ;
+
+        
+    
+    
+            var marker_23cfcefd62dfb44eb866e62d5ec642a0 = L.marker(
+                [8.299745, 36.415112],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d6ef18899e96afb61d76db332a716434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c30bcdb9e511f28f39bfab026c7159 = $(`<div id="html_d8c30bcdb9e511f28f39bfab026c7159" style="width: 100.0%; height: 100.0%;">- Beeroo - 1049725</div>`)[0];
+                popup_d6ef18899e96afb61d76db332a716434.setContent(html_d8c30bcdb9e511f28f39bfab026c7159);
+            
+        
+
+        marker_23cfcefd62dfb44eb866e62d5ec642a0.bindPopup(popup_d6ef18899e96afb61d76db332a716434)
+        ;
+
+        
+    
+    
+            var marker_e02c9f2ed11fb260a8012cf3bf47c18d = L.marker(
+                [8.242359, 36.398634],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_557e786f3f47750f77f831d95f9ca47c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0becfec3405d50c89bdef2c862e33481 = $(`<div id="html_0becfec3405d50c89bdef2c862e33481" style="width: 100.0%; height: 100.0%;">- Golli - 1049724</div>`)[0];
+                popup_557e786f3f47750f77f831d95f9ca47c.setContent(html_0becfec3405d50c89bdef2c862e33481);
+            
+        
+
+        marker_e02c9f2ed11fb260a8012cf3bf47c18d.bindPopup(popup_557e786f3f47750f77f831d95f9ca47c)
+        ;
+
+        
+    
+    
+            var marker_3223deb997c86007247d2529da1e6bf9 = L.marker(
+                [8.271911, 36.503403],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9d58ba204f02932a2213fe87d2d07067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65efc1ccfa67a151fc2ade4a9e16223b = $(`<div id="html_65efc1ccfa67a151fc2ade4a9e16223b" style="width: 100.0%; height: 100.0%;">- Amiinoo - 1049723</div>`)[0];
+                popup_9d58ba204f02932a2213fe87d2d07067.setContent(html_65efc1ccfa67a151fc2ade4a9e16223b);
+            
+        
+
+        marker_3223deb997c86007247d2529da1e6bf9.bindPopup(popup_9d58ba204f02932a2213fe87d2d07067)
+        ;
+
+        
+    
+    
+            var marker_045805c4e8e302e3707b3a6b88738b5f = L.marker(
+                [8.305088, 36.475083],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8d9d34fe1f177aec818c4ff854f25707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0ab918384b8ed633d17efc18b0e2a10 = $(`<div id="html_d0ab918384b8ed633d17efc18b0e2a10" style="width: 100.0%; height: 100.0%;">- Kobbaa - 1049722</div>`)[0];
+                popup_8d9d34fe1f177aec818c4ff854f25707.setContent(html_d0ab918384b8ed633d17efc18b0e2a10);
+            
+        
+
+        marker_045805c4e8e302e3707b3a6b88738b5f.bindPopup(popup_8d9d34fe1f177aec818c4ff854f25707)
+        ;
+
+        
+    
+    
+            var marker_4bef3a4b4cecd97a0afebca4f1eab9cd = L.marker(
+                [8.306237, 36.470689],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_98e1b6aa43e827457c8fb4b7d403b37f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0eb4f74395b55d5e2bd935484a688053 = $(`<div id="html_0eb4f74395b55d5e2bd935484a688053" style="width: 100.0%; height: 100.0%;">- Kobbaa - 1049721</div>`)[0];
+                popup_98e1b6aa43e827457c8fb4b7d403b37f.setContent(html_0eb4f74395b55d5e2bd935484a688053);
+            
+        
+
+        marker_4bef3a4b4cecd97a0afebca4f1eab9cd.bindPopup(popup_98e1b6aa43e827457c8fb4b7d403b37f)
+        ;
+
+        
+    
+    
+            var marker_9219946706f478c86ea8579eb864aa42 = L.marker(
+                [8.318252, 36.475644],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5677d02999ba48d0ccc3ad491560c4c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa1b0a303d8dab4f8ffb931388d4ae0 = $(`<div id="html_0aa1b0a303d8dab4f8ffb931388d4ae0" style="width: 100.0%; height: 100.0%;">- Chancho - 1049720</div>`)[0];
+                popup_5677d02999ba48d0ccc3ad491560c4c6.setContent(html_0aa1b0a303d8dab4f8ffb931388d4ae0);
+            
+        
+
+        marker_9219946706f478c86ea8579eb864aa42.bindPopup(popup_5677d02999ba48d0ccc3ad491560c4c6)
+        ;
+
+        
+    
+    
+            var marker_d4a8b6422e24f841188ea8f8ecf8e95e = L.marker(
+                [8.296139, 36.373032],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_434a38980df5b447cf4b78206f978420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f36dd7bdaa8a69891720c4caaebc915 = $(`<div id="html_9f36dd7bdaa8a69891720c4caaebc915" style="width: 100.0%; height: 100.0%;">Ethiopia - Amoomaa - 1049718</div>`)[0];
+                popup_434a38980df5b447cf4b78206f978420.setContent(html_9f36dd7bdaa8a69891720c4caaebc915);
+            
+        
+
+        marker_d4a8b6422e24f841188ea8f8ecf8e95e.bindPopup(popup_434a38980df5b447cf4b78206f978420)
+        ;
+
+        
+    
+    
+            var marker_9a250348b9c98a7af34ffc81f3d9a739 = L.marker(
+                [8.328884, 36.401795],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_55c2f0526c9dcb53a2c1ea9ab3bb8f12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c942ff14ee162c292d9811839fbe84bf = $(`<div id="html_c942ff14ee162c292d9811839fbe84bf" style="width: 100.0%; height: 100.0%;">- Dangawaj - 1049717</div>`)[0];
+                popup_55c2f0526c9dcb53a2c1ea9ab3bb8f12.setContent(html_c942ff14ee162c292d9811839fbe84bf);
+            
+        
+
+        marker_9a250348b9c98a7af34ffc81f3d9a739.bindPopup(popup_55c2f0526c9dcb53a2c1ea9ab3bb8f12)
+        ;
+
+        
+    
+    
+            var marker_df914d5d46bc4077c89c6d4efd57d1a4 = L.marker(
+                [8.388397, 36.434837],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_ee086d4aaec8de64e42f20ac8ccc17d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8126babd84525b123383d2fa5513fc2b = $(`<div id="html_8126babd84525b123383d2fa5513fc2b" style="width: 100.0%; height: 100.0%;">- Jijo - 1049716</div>`)[0];
+                popup_ee086d4aaec8de64e42f20ac8ccc17d7.setContent(html_8126babd84525b123383d2fa5513fc2b);
+            
+        
+
+        marker_df914d5d46bc4077c89c6d4efd57d1a4.bindPopup(popup_ee086d4aaec8de64e42f20ac8ccc17d7)
+        ;
+
+        
+    
+    
+            var marker_b0829e14cc80f1c88ea0870b2a28a32a = L.marker(
+                [8.413723, 36.487845],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8af615ba80528ffc9e0758536f92b836 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d70911da992499559b9d7f66172fe00 = $(`<div id="html_5d70911da992499559b9d7f66172fe00" style="width: 100.0%; height: 100.0%;">- Anaba - 1049715</div>`)[0];
+                popup_8af615ba80528ffc9e0758536f92b836.setContent(html_5d70911da992499559b9d7f66172fe00);
+            
+        
+
+        marker_b0829e14cc80f1c88ea0870b2a28a32a.bindPopup(popup_8af615ba80528ffc9e0758536f92b836)
+        ;
+
+        
+    
+    
+            var marker_92166ffcd99c024bd8febe7ea458b2c0 = L.marker(
+                [8.422213, 36.484775],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d6f42015fad32c1885c01acab88598d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccf13d3a142287bf8e5b99525810e0df = $(`<div id="html_ccf13d3a142287bf8e5b99525810e0df" style="width: 100.0%; height: 100.0%;">- Muuchaa 2 - 1049714</div>`)[0];
+                popup_d6f42015fad32c1885c01acab88598d8.setContent(html_ccf13d3a142287bf8e5b99525810e0df);
+            
+        
+
+        marker_92166ffcd99c024bd8febe7ea458b2c0.bindPopup(popup_d6f42015fad32c1885c01acab88598d8)
+        ;
+
+        
+    
+    
+            var marker_43aa16b51ffab53e2a5a10727fe5a4ad = L.marker(
+                [8.422006, 36.485102],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5352af2dfbdbdff0a313b193f0d5710d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e983e4cd3c571ca80fe0ada0c4dcdd4 = $(`<div id="html_7e983e4cd3c571ca80fe0ada0c4dcdd4" style="width: 100.0%; height: 100.0%;">Ethiopia - Muchaa 1 - 1049713</div>`)[0];
+                popup_5352af2dfbdbdff0a313b193f0d5710d.setContent(html_7e983e4cd3c571ca80fe0ada0c4dcdd4);
+            
+        
+
+        marker_43aa16b51ffab53e2a5a10727fe5a4ad.bindPopup(popup_5352af2dfbdbdff0a313b193f0d5710d)
+        ;
+
+        
+    
+    
+            var marker_0323a9aebc43a89f74e3f4b36e143587 = L.marker(
+                [8.402849, 36.49838],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7ae3623932c686c384b82f13eb50a287 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_426e8ac582bb12043794fa055f98ae30 = $(`<div id="html_426e8ac582bb12043794fa055f98ae30" style="width: 100.0%; height: 100.0%;">- Inboro - 1049712</div>`)[0];
+                popup_7ae3623932c686c384b82f13eb50a287.setContent(html_426e8ac582bb12043794fa055f98ae30);
+            
+        
+
+        marker_0323a9aebc43a89f74e3f4b36e143587.bindPopup(popup_7ae3623932c686c384b82f13eb50a287)
+        ;
+
+        
+    
+    
+            var marker_9ddbfe7f931b41a4842f6494425a53ed = L.marker(
+                [8.38517, 36.517198],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6b81e2db73fc83e0cb8e5310ad6b459d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49b2a3940d08e4d6cd598116c5a53033 = $(`<div id="html_49b2a3940d08e4d6cd598116c5a53033" style="width: 100.0%; height: 100.0%;">- Ooloo - 1049711</div>`)[0];
+                popup_6b81e2db73fc83e0cb8e5310ad6b459d.setContent(html_49b2a3940d08e4d6cd598116c5a53033);
+            
+        
+
+        marker_9ddbfe7f931b41a4842f6494425a53ed.bindPopup(popup_6b81e2db73fc83e0cb8e5310ad6b459d)
+        ;
+
+        
+    
+    
+            var marker_7dc214b7b401deab7d91fc484c6d1f65 = L.marker(
+                [9.037874, 41.389227],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b499b9805009d1cbab3309a14e6c4cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9ee0bff425476bf130a33b75c5c9a42 = $(`<div id="html_a9ee0bff425476bf130a33b75c5c9a42" style="width: 100.0%; height: 100.0%;">- Gooro - 1050398</div>`)[0];
+                popup_b499b9805009d1cbab3309a14e6c4cc7.setContent(html_a9ee0bff425476bf130a33b75c5c9a42);
+            
+        
+
+        marker_7dc214b7b401deab7d91fc484c6d1f65.bindPopup(popup_b499b9805009d1cbab3309a14e6c4cc7)
+        ;
+
+        
+    
+    
+            var marker_2acabbb526aeaf808e61b4646fdf5dbc = L.marker(
+                [8.996712, 41.396938],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_abbcb62fcc3394cd3dab0f2e1175ce4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bcfdcd755cd1476a111007ea4dcee8c = $(`<div id="html_1bcfdcd755cd1476a111007ea4dcee8c" style="width: 100.0%; height: 100.0%;">- Adam Abdi - 1050397</div>`)[0];
+                popup_abbcb62fcc3394cd3dab0f2e1175ce4e.setContent(html_1bcfdcd755cd1476a111007ea4dcee8c);
+            
+        
+
+        marker_2acabbb526aeaf808e61b4646fdf5dbc.bindPopup(popup_abbcb62fcc3394cd3dab0f2e1175ce4e)
+        ;
+
+        
+    
+    
+            var marker_d784125400bbbb3b5b9ca1644965bf0b = L.marker(
+                [8.965392, 41.399728],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a73e285a25785c150160609cebb6aefe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c1e94fc0c98e795516c470adb818d92 = $(`<div id="html_6c1e94fc0c98e795516c470adb818d92" style="width: 100.0%; height: 100.0%;">- Abdi Boru - 1050396</div>`)[0];
+                popup_a73e285a25785c150160609cebb6aefe.setContent(html_6c1e94fc0c98e795516c470adb818d92);
+            
+        
+
+        marker_d784125400bbbb3b5b9ca1644965bf0b.bindPopup(popup_a73e285a25785c150160609cebb6aefe)
+        ;
+
+        
+    
+    
+            var marker_fe97791c20c6b69514303ebf3943c05e = L.marker(
+                [8.940553, 41.422351],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a321d00e222ea39bdd59ccdfa6a7feff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6338acd7b423295a1241013f61cc0aca = $(`<div id="html_6338acd7b423295a1241013f61cc0aca" style="width: 100.0%; height: 100.0%;">- Walda - 1050395</div>`)[0];
+                popup_a321d00e222ea39bdd59ccdfa6a7feff.setContent(html_6338acd7b423295a1241013f61cc0aca);
+            
+        
+
+        marker_fe97791c20c6b69514303ebf3943c05e.bindPopup(popup_a321d00e222ea39bdd59ccdfa6a7feff)
+        ;
+
+        
+    
+    
+            var marker_126c5e5e4c05a6239b6376e490257318 = L.marker(
+                [9.136069, 41.39412],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4ce39872900eb1dc61c347fe1f458293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af003f80a60a9b1d1dc87c01d899cc53 = $(`<div id="html_af003f80a60a9b1d1dc87c01d899cc53" style="width: 100.0%; height: 100.0%;">- Dirre Baloo - 1050393</div>`)[0];
+                popup_4ce39872900eb1dc61c347fe1f458293.setContent(html_af003f80a60a9b1d1dc87c01d899cc53);
+            
+        
+
+        marker_126c5e5e4c05a6239b6376e490257318.bindPopup(popup_4ce39872900eb1dc61c347fe1f458293)
+        ;
+
+        
+    
+    
+            var marker_8dd51df9c18dd4b78eb17e561274c899 = L.marker(
+                [9.078347, 41.424309],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f7ae8f3de8bd771f60fa9f26421ebb8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63839cc9e7e6436f5f65e227c005681f = $(`<div id="html_63839cc9e7e6436f5f65e227c005681f" style="width: 100.0%; height: 100.0%;">- Ali Ahmed - 1050386</div>`)[0];
+                popup_f7ae8f3de8bd771f60fa9f26421ebb8e.setContent(html_63839cc9e7e6436f5f65e227c005681f);
+            
+        
+
+        marker_8dd51df9c18dd4b78eb17e561274c899.bindPopup(popup_f7ae8f3de8bd771f60fa9f26421ebb8e)
+        ;
+
+        
+    
+    
+            var marker_1cab9b0f7e8fec464ff903ad4ecc1ba9 = L.marker(
+                [9.094551, 41.418802],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_de38209f00f3fcb6182be7ee58f4d213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_363887da44e1443fb317e11df43b2383 = $(`<div id="html_363887da44e1443fb317e11df43b2383" style="width: 100.0%; height: 100.0%;">- Ali Uree - 1050385</div>`)[0];
+                popup_de38209f00f3fcb6182be7ee58f4d213.setContent(html_363887da44e1443fb317e11df43b2383);
+            
+        
+
+        marker_1cab9b0f7e8fec464ff903ad4ecc1ba9.bindPopup(popup_de38209f00f3fcb6182be7ee58f4d213)
+        ;
+
+        
+    
+    
+            var marker_b1bd285de4165554653b9e52b8775542 = L.marker(
+                [9.132473, 41.3947],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b70b5ab6b320b63f6e7e0cc202ef21af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f070a408787fff567146c49716f55e3b = $(`<div id="html_f070a408787fff567146c49716f55e3b" style="width: 100.0%; height: 100.0%;">- Ambo - 1050382</div>`)[0];
+                popup_b70b5ab6b320b63f6e7e0cc202ef21af.setContent(html_f070a408787fff567146c49716f55e3b);
+            
+        
+
+        marker_b1bd285de4165554653b9e52b8775542.bindPopup(popup_b70b5ab6b320b63f6e7e0cc202ef21af)
+        ;
+
+        
+    
+    
+            var marker_15fdeec04ea11baf2390f091dbb1b217 = L.marker(
+                [7.917803, 36.091719],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9f69adfd1acd47cf50f3a572dd9d79f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f234dda7778607bb3a3d0df0b88b8c0 = $(`<div id="html_4f234dda7778607bb3a3d0df0b88b8c0" style="width: 100.0%; height: 100.0%;">- Dorine - 1049779</div>`)[0];
+                popup_9f69adfd1acd47cf50f3a572dd9d79f9.setContent(html_4f234dda7778607bb3a3d0df0b88b8c0);
+            
+        
+
+        marker_15fdeec04ea11baf2390f091dbb1b217.bindPopup(popup_9f69adfd1acd47cf50f3a572dd9d79f9)
+        ;
+
+        
+    
+    
+            var marker_9fa9c0e9f077c118f4f2a1d2cd85ec0c = L.marker(
+                [7.923936, 36.086346],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_94cd11577619789783a366ecd289adca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baec99227931430ca9e2c653ddf427b3 = $(`<div id="html_baec99227931430ca9e2c653ddf427b3" style="width: 100.0%; height: 100.0%;">- Yemito - 1049778</div>`)[0];
+                popup_94cd11577619789783a366ecd289adca.setContent(html_baec99227931430ca9e2c653ddf427b3);
+            
+        
+
+        marker_9fa9c0e9f077c118f4f2a1d2cd85ec0c.bindPopup(popup_94cd11577619789783a366ecd289adca)
+        ;
+
+        
+    
+    
+            var marker_9feffadc4c1cf7c4aac5adc03a56ee0a = L.marker(
+                [7.890775, 36.109796],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6131960223058cb557d66fc76131023e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cc577f952693bc444656cc560e0a24f = $(`<div id="html_4cc577f952693bc444656cc560e0a24f" style="width: 100.0%; height: 100.0%;">- Waakkaa - 1049777</div>`)[0];
+                popup_6131960223058cb557d66fc76131023e.setContent(html_4cc577f952693bc444656cc560e0a24f);
+            
+        
+
+        marker_9feffadc4c1cf7c4aac5adc03a56ee0a.bindPopup(popup_6131960223058cb557d66fc76131023e)
+        ;
+
+        
+    
+    
+            var marker_22e3da3185a25fe5b6f41740d0d83005 = L.marker(
+                [7.89797, 36.113808],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_ebd5719d5d35d4a8c2af6a4bfa073754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef1f7d761113f8f5c4379a2ed1a5e0b8 = $(`<div id="html_ef1f7d761113f8f5c4379a2ed1a5e0b8" style="width: 100.0%; height: 100.0%;">- Inabro - 1049776</div>`)[0];
+                popup_ebd5719d5d35d4a8c2af6a4bfa073754.setContent(html_ef1f7d761113f8f5c4379a2ed1a5e0b8);
+            
+        
+
+        marker_22e3da3185a25fe5b6f41740d0d83005.bindPopup(popup_ebd5719d5d35d4a8c2af6a4bfa073754)
+        ;
+
+        
+    
+    
+            var marker_13854b509a432736e9fa71d7530a5fb3 = L.marker(
+                [7.888161, 36.122748],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f8016277962c1ab084e3506644c5d938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f64352d520d48dc7de82b61eb578cd3c = $(`<div id="html_f64352d520d48dc7de82b61eb578cd3c" style="width: 100.0%; height: 100.0%;">- Babayu - 1049775</div>`)[0];
+                popup_f8016277962c1ab084e3506644c5d938.setContent(html_f64352d520d48dc7de82b61eb578cd3c);
+            
+        
+
+        marker_13854b509a432736e9fa71d7530a5fb3.bindPopup(popup_f8016277962c1ab084e3506644c5d938)
+        ;
+
+        
+    
+    
+            var marker_219b4432c1264c43a3c0d1a9af08ad49 = L.marker(
+                [7.853663, 36.146658],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6f7e1e634eceedf385225359736f68f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca4b870616698bf97ef1765032faacf0 = $(`<div id="html_ca4b870616698bf97ef1765032faacf0" style="width: 100.0%; height: 100.0%;">- Angaro - 1049774</div>`)[0];
+                popup_6f7e1e634eceedf385225359736f68f7.setContent(html_ca4b870616698bf97ef1765032faacf0);
+            
+        
+
+        marker_219b4432c1264c43a3c0d1a9af08ad49.bindPopup(popup_6f7e1e634eceedf385225359736f68f7)
+        ;
+
+        
+    
+    
+            var marker_9795568fd958c305fe6e1280674df029 = L.marker(
+                [7.874723, 35.991451],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a9f345546aebfa63088c65bd7842cfc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83fee5cff9618ec69bc5145a3c9b2163 = $(`<div id="html_83fee5cff9618ec69bc5145a3c9b2163" style="width: 100.0%; height: 100.0%;">- Seemmee - 1049773</div>`)[0];
+                popup_a9f345546aebfa63088c65bd7842cfc0.setContent(html_83fee5cff9618ec69bc5145a3c9b2163);
+            
+        
+
+        marker_9795568fd958c305fe6e1280674df029.bindPopup(popup_a9f345546aebfa63088c65bd7842cfc0)
+        ;
+
+        
+    
+    
+            var marker_2a897ee1f479cac84075ea8be2911c86 = L.marker(
+                [7.882061, 36.012747],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7d99ea9b2cfee7d220060e1093b38b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75be9fe6b011e1604d3bf75bc668e997 = $(`<div id="html_75be9fe6b011e1604d3bf75bc668e997" style="width: 100.0%; height: 100.0%;">- Sadacha - 1049772</div>`)[0];
+                popup_7d99ea9b2cfee7d220060e1093b38b3b.setContent(html_75be9fe6b011e1604d3bf75bc668e997);
+            
+        
+
+        marker_2a897ee1f479cac84075ea8be2911c86.bindPopup(popup_7d99ea9b2cfee7d220060e1093b38b3b)
+        ;
+
+        
+    
+    
+            var marker_a47687d22bbaabe6186ba9577c9cde8e = L.marker(
+                [7.883767, 36.007346],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c81d12bb938aabd48541b6f65538b423 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43498f40cf233d6e0e35a757a5d8b843 = $(`<div id="html_43498f40cf233d6e0e35a757a5d8b843" style="width: 100.0%; height: 100.0%;">- Dogaja - 1049771</div>`)[0];
+                popup_c81d12bb938aabd48541b6f65538b423.setContent(html_43498f40cf233d6e0e35a757a5d8b843);
+            
+        
+
+        marker_a47687d22bbaabe6186ba9577c9cde8e.bindPopup(popup_c81d12bb938aabd48541b6f65538b423)
+        ;
+
+        
+    
+    
+            var marker_fcfcd7a91948441ab2302ec2ef1ee401 = L.marker(
+                [7.853217, 36.022226],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0ee69aed0ab98a62e749a7f8cc2bc46a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e86e8e3953278884b0d63f5d4d84c94 = $(`<div id="html_9e86e8e3953278884b0d63f5d4d84c94" style="width: 100.0%; height: 100.0%;">- Maammee - 1049770</div>`)[0];
+                popup_0ee69aed0ab98a62e749a7f8cc2bc46a.setContent(html_9e86e8e3953278884b0d63f5d4d84c94);
+            
+        
+
+        marker_fcfcd7a91948441ab2302ec2ef1ee401.bindPopup(popup_0ee69aed0ab98a62e749a7f8cc2bc46a)
+        ;
+
+        
+    
+    
+            var marker_45b5692e0aaf5b79a568423a15b279c5 = L.marker(
+                [7.48689, 36.644748],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7d31e7dfa288e33f71399451eaafb711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4bf60ca0fba7fac82962a65955d5bdc = $(`<div id="html_a4bf60ca0fba7fac82962a65955d5bdc" style="width: 100.0%; height: 100.0%;">- Arabu - 1049615</div>`)[0];
+                popup_7d31e7dfa288e33f71399451eaafb711.setContent(html_a4bf60ca0fba7fac82962a65955d5bdc);
+            
+        
+
+        marker_45b5692e0aaf5b79a568423a15b279c5.bindPopup(popup_7d31e7dfa288e33f71399451eaafb711)
+        ;
+
+        
+    
+    
+            var marker_bb02d3210f435093d558abc09e6dd6ef = L.marker(
+                [7.604991, 36.777024],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_60efd23cd6ddd31cdc03797163d4bf60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7407e4e969c14c96629ca5d9036d50f7 = $(`<div id="html_7407e4e969c14c96629ca5d9036d50f7" style="width: 100.0%; height: 100.0%;">- Sapeeraa - 1049614</div>`)[0];
+                popup_60efd23cd6ddd31cdc03797163d4bf60.setContent(html_7407e4e969c14c96629ca5d9036d50f7);
+            
+        
+
+        marker_bb02d3210f435093d558abc09e6dd6ef.bindPopup(popup_60efd23cd6ddd31cdc03797163d4bf60)
+        ;
+
+        
+    
+    
+            var marker_d0443349afc6cd3f361df837630b67e2 = L.marker(
+                [7.606262, 36.696005],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c4b030855a2ea76027e4e4e95aa18ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2151414712187c953639ac827465a788 = $(`<div id="html_2151414712187c953639ac827465a788" style="width: 100.0%; height: 100.0%;">- Dagaboso - 1049613</div>`)[0];
+                popup_c4b030855a2ea76027e4e4e95aa18ca7.setContent(html_2151414712187c953639ac827465a788);
+            
+        
+
+        marker_d0443349afc6cd3f361df837630b67e2.bindPopup(popup_c4b030855a2ea76027e4e4e95aa18ca7)
+        ;
+
+        
+    
+    
+            var marker_7b63512c267ca477ffc09dc860ccb48e = L.marker(
+                [7.569767, 36.684456],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d33c860b54b496c0ddc7302299c1a959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a39c67697e9229940341e6761e38b95f = $(`<div id="html_a39c67697e9229940341e6761e38b95f" style="width: 100.0%; height: 100.0%;">- Usmani - 1049599</div>`)[0];
+                popup_d33c860b54b496c0ddc7302299c1a959.setContent(html_a39c67697e9229940341e6761e38b95f);
+            
+        
+
+        marker_7b63512c267ca477ffc09dc860ccb48e.bindPopup(popup_d33c860b54b496c0ddc7302299c1a959)
+        ;
+
+        
+    
+    
+            var marker_1bba200a2f7bee0bb051d2b041001e39 = L.marker(
+                [7.570638, 36.710922],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1b87590385294f1c0c93b7b198517947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25860e94fa8302cb756883b0d6f1b713 = $(`<div id="html_25860e94fa8302cb756883b0d6f1b713" style="width: 100.0%; height: 100.0%;">- Yaacino - 1049598</div>`)[0];
+                popup_1b87590385294f1c0c93b7b198517947.setContent(html_25860e94fa8302cb756883b0d6f1b713);
+            
+        
+
+        marker_1bba200a2f7bee0bb051d2b041001e39.bindPopup(popup_1b87590385294f1c0c93b7b198517947)
+        ;
+
+        
+    
+    
+            var marker_29a5de919c2e187325e3d3559e947f48 = L.marker(
+                [7.59841, 36.674801],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a74cc97d7c5ebddf15aebd892f008c7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4e115b23ac9a9ed48afc90be69e97d0 = $(`<div id="html_b4e115b23ac9a9ed48afc90be69e97d0" style="width: 100.0%; height: 100.0%;">- Olme Dha'e - 1049597</div>`)[0];
+                popup_a74cc97d7c5ebddf15aebd892f008c7d.setContent(html_b4e115b23ac9a9ed48afc90be69e97d0);
+            
+        
+
+        marker_29a5de919c2e187325e3d3559e947f48.bindPopup(popup_a74cc97d7c5ebddf15aebd892f008c7d)
+        ;
+
+        
+    
+    
+            var marker_662e74f4160e0eb25789228011223abe = L.marker(
+                [7.620003, 36.617442],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f9a9e363f9693a85d6e2a267d4352731 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_920ea0cb8d6ab6650fa55f1c0bb1377e = $(`<div id="html_920ea0cb8d6ab6650fa55f1c0bb1377e" style="width: 100.0%; height: 100.0%;">- Ilkee - 1049596</div>`)[0];
+                popup_f9a9e363f9693a85d6e2a267d4352731.setContent(html_920ea0cb8d6ab6650fa55f1c0bb1377e);
+            
+        
+
+        marker_662e74f4160e0eb25789228011223abe.bindPopup(popup_f9a9e363f9693a85d6e2a267d4352731)
+        ;
+
+        
+    
+    
+            var marker_8fbf0326c56139ec151d0f7da1f92410 = L.marker(
+                [7.613942, 36.721531],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b24a00edcc03d712bf10a3d9f9df8176 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ed1aa9e195e67470283ae0a54f05216 = $(`<div id="html_9ed1aa9e195e67470283ae0a54f05216" style="width: 100.0%; height: 100.0%;">- Aniya - 1049595</div>`)[0];
+                popup_b24a00edcc03d712bf10a3d9f9df8176.setContent(html_9ed1aa9e195e67470283ae0a54f05216);
+            
+        
+
+        marker_8fbf0326c56139ec151d0f7da1f92410.bindPopup(popup_b24a00edcc03d712bf10a3d9f9df8176)
+        ;
+
+        
+    
+    
+            var marker_211b82a41782eb122be606ec10fcf023 = L.marker(
+                [7.652947, 36.465332],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e4a9d87cc160927109334130dd6d40fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49a59e0a401262ec748ef1cdaa1b4408 = $(`<div id="html_49a59e0a401262ec748ef1cdaa1b4408" style="width: 100.0%; height: 100.0%;">- Shewa Bar - 1049593</div>`)[0];
+                popup_e4a9d87cc160927109334130dd6d40fd.setContent(html_49a59e0a401262ec748ef1cdaa1b4408);
+            
+        
+
+        marker_211b82a41782eb122be606ec10fcf023.bindPopup(popup_e4a9d87cc160927109334130dd6d40fd)
+        ;
+
+        
+    
+    
+            var marker_015eb0ef8ca4beb0d46716d68c93123d = L.marker(
+                [7.658479, 36.480439],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9e0118badb984e7c177ec89fd5071db7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a05dfaaebe408e5e6e86f53cdb96576a = $(`<div id="html_a05dfaaebe408e5e6e86f53cdb96576a" style="width: 100.0%; height: 100.0%;">- Burkitu - 1049592</div>`)[0];
+                popup_9e0118badb984e7c177ec89fd5071db7.setContent(html_a05dfaaebe408e5e6e86f53cdb96576a);
+            
+        
+
+        marker_015eb0ef8ca4beb0d46716d68c93123d.bindPopup(popup_9e0118badb984e7c177ec89fd5071db7)
+        ;
+
+        
+    
+    
+            var marker_4564e063331c62d28c780726b27d9611 = L.marker(
+                [7.585258, 36.746934],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_58a1b280d365503b8e06f01c30c5936b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_261fee53fd4750ceea65230ba9284fb4 = $(`<div id="html_261fee53fd4750ceea65230ba9284fb4" style="width: 100.0%; height: 100.0%;">- Yabboo - 1049591</div>`)[0];
+                popup_58a1b280d365503b8e06f01c30c5936b.setContent(html_261fee53fd4750ceea65230ba9284fb4);
+            
+        
+
+        marker_4564e063331c62d28c780726b27d9611.bindPopup(popup_58a1b280d365503b8e06f01c30c5936b)
+        ;
+
+        
+    
+    
+            var marker_e6530c89d1cfa2afd76fdd71e96fd348 = L.marker(
+                [7.483707, 36.690476],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_584bb77f9e2182e9dd2c0b43418471a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2832ddde5501f8180bfd96edcc46dfdc = $(`<div id="html_2832ddde5501f8180bfd96edcc46dfdc" style="width: 100.0%; height: 100.0%;">- Misira - 1049578</div>`)[0];
+                popup_584bb77f9e2182e9dd2c0b43418471a3.setContent(html_2832ddde5501f8180bfd96edcc46dfdc);
+            
+        
+
+        marker_e6530c89d1cfa2afd76fdd71e96fd348.bindPopup(popup_584bb77f9e2182e9dd2c0b43418471a3)
+        ;
+
+        
+    
+    
+            var marker_b2dbf438deebb771fd0c24ae7df4056c = L.marker(
+                [7.436841, 36.742303],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_733f5457a8942d625e717cb8b7b8ff68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a120898bdbd5b2332537506de620c7f3 = $(`<div id="html_a120898bdbd5b2332537506de620c7f3" style="width: 100.0%; height: 100.0%;">- Jalalle - 1049576</div>`)[0];
+                popup_733f5457a8942d625e717cb8b7b8ff68.setContent(html_a120898bdbd5b2332537506de620c7f3);
+            
+        
+
+        marker_b2dbf438deebb771fd0c24ae7df4056c.bindPopup(popup_733f5457a8942d625e717cb8b7b8ff68)
+        ;
+
+        
+    
+    
+            var marker_2baaae50273eb7e623839185a0c61404 = L.marker(
+                [7.478043, 36.694504],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_3d1ab3419de899ad5c096cabbac52c31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50e0413ac55e04ea988d912f49e80aed = $(`<div id="html_50e0413ac55e04ea988d912f49e80aed" style="width: 100.0%; height: 100.0%;">- Kombolcha - 1049575</div>`)[0];
+                popup_3d1ab3419de899ad5c096cabbac52c31.setContent(html_50e0413ac55e04ea988d912f49e80aed);
+            
+        
+
+        marker_2baaae50273eb7e623839185a0c61404.bindPopup(popup_3d1ab3419de899ad5c096cabbac52c31)
+        ;
+
+        
+    
+    
+            var marker_15f6bfc1ece72274c97b4a913a2cda25 = L.marker(
+                [7.464701, 36.69125],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_73aefadb6ab43992825ad91cb82fd118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78d85349cde52f84f494a827822ada10 = $(`<div id="html_78d85349cde52f84f494a827822ada10" style="width: 100.0%; height: 100.0%;">- Kobaa Warke - 1049574</div>`)[0];
+                popup_73aefadb6ab43992825ad91cb82fd118.setContent(html_78d85349cde52f84f494a827822ada10);
+            
+        
+
+        marker_15f6bfc1ece72274c97b4a913a2cda25.bindPopup(popup_73aefadb6ab43992825ad91cb82fd118)
+        ;
+
+        
+    
+    
+            var marker_f61de2540f59445eefefa30ee27e1550 = L.marker(
+                [7.631397, 36.70333],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_03aa545f02280b361ae4dbad1f85aff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e31be6c1d8b2b9524c2abc684101cebf = $(`<div id="html_e31be6c1d8b2b9524c2abc684101cebf" style="width: 100.0%; height: 100.0%;">- Heeraa - 1049573</div>`)[0];
+                popup_03aa545f02280b361ae4dbad1f85aff2.setContent(html_e31be6c1d8b2b9524c2abc684101cebf);
+            
+        
+
+        marker_f61de2540f59445eefefa30ee27e1550.bindPopup(popup_03aa545f02280b361ae4dbad1f85aff2)
+        ;
+
+        
+    
+    
+            var marker_4b1736f0dc79fd1ccaa525a6691ef838 = L.marker(
+                [7.525217, 36.744423],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_eaccdcc164f17e8236b65174d2965c24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67acc990d20e3be971b6d7c724aa33f1 = $(`<div id="html_67acc990d20e3be971b6d7c724aa33f1" style="width: 100.0%; height: 100.0%;">- Wannib - 1049563</div>`)[0];
+                popup_eaccdcc164f17e8236b65174d2965c24.setContent(html_67acc990d20e3be971b6d7c724aa33f1);
+            
+        
+
+        marker_4b1736f0dc79fd1ccaa525a6691ef838.bindPopup(popup_eaccdcc164f17e8236b65174d2965c24)
+        ;
+
+        
+    
+    
+            var marker_ab50fe0e25177528ec58d8cfeb107056 = L.marker(
+                [7.567152, 36.727149],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_23728fd95e845354f965af4380662d3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cd2ab42ba2c7122e74f97dd04cc1a23 = $(`<div id="html_0cd2ab42ba2c7122e74f97dd04cc1a23" style="width: 100.0%; height: 100.0%;">- Duuke - 1049562</div>`)[0];
+                popup_23728fd95e845354f965af4380662d3d.setContent(html_0cd2ab42ba2c7122e74f97dd04cc1a23);
+            
+        
+
+        marker_ab50fe0e25177528ec58d8cfeb107056.bindPopup(popup_23728fd95e845354f965af4380662d3d)
+        ;
+
+        
+    
+    
+            var marker_f204a6dba9d547ae8561bb3a67fe4fce = L.marker(
+                [7.502149, 36.7248],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_cb63e59e3d4d61525a0b44d63e536272 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_185872cac0ee76373a94c337511f2060 = $(`<div id="html_185872cac0ee76373a94c337511f2060" style="width: 100.0%; height: 100.0%;">- Xabala - 1049561</div>`)[0];
+                popup_cb63e59e3d4d61525a0b44d63e536272.setContent(html_185872cac0ee76373a94c337511f2060);
+            
+        
+
+        marker_f204a6dba9d547ae8561bb3a67fe4fce.bindPopup(popup_cb63e59e3d4d61525a0b44d63e536272)
+        ;
+
+        
+    
+    
+            var marker_83476c4db9605e56ab7859de0181a7f3 = L.marker(
+                [7.516494, 36.731698],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0848a911e8571d0c63ae6afe38b6323a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebe1d68efd71f2ec5412169d265bf3d4 = $(`<div id="html_ebe1d68efd71f2ec5412169d265bf3d4" style="width: 100.0%; height: 100.0%;">- Tuuli - 1049560</div>`)[0];
+                popup_0848a911e8571d0c63ae6afe38b6323a.setContent(html_ebe1d68efd71f2ec5412169d265bf3d4);
+            
+        
+
+        marker_83476c4db9605e56ab7859de0181a7f3.bindPopup(popup_0848a911e8571d0c63ae6afe38b6323a)
+        ;
+
+        
+    
+    
+            var marker_a05d66e19376d7e5332c41adeaa8f0c4 = L.marker(
+                [7.495905, 36.520719],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5a2cb3cab4ffcf08426a92fa7411ddc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6271954df32a91ef75b8f55486cc8d1d = $(`<div id="html_6271954df32a91ef75b8f55486cc8d1d" style="width: 100.0%; height: 100.0%;">- Chagge - 1049544</div>`)[0];
+                popup_5a2cb3cab4ffcf08426a92fa7411ddc2.setContent(html_6271954df32a91ef75b8f55486cc8d1d);
+            
+        
+
+        marker_a05d66e19376d7e5332c41adeaa8f0c4.bindPopup(popup_5a2cb3cab4ffcf08426a92fa7411ddc2)
+        ;
+
+        
+    
+    
+            var marker_221036196d5ec0e7286ec4504fbfc7db = L.marker(
+                [7.486666, 36.532105],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b9f1799aeede5d025f44b8df9715e642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a317b3a8c0395ddb0bffd4cdb2e851a = $(`<div id="html_8a317b3a8c0395ddb0bffd4cdb2e851a" style="width: 100.0%; height: 100.0%;">- Kambo - 1049543</div>`)[0];
+                popup_b9f1799aeede5d025f44b8df9715e642.setContent(html_8a317b3a8c0395ddb0bffd4cdb2e851a);
+            
+        
+
+        marker_221036196d5ec0e7286ec4504fbfc7db.bindPopup(popup_b9f1799aeede5d025f44b8df9715e642)
+        ;
+
+        
+    
+    
+            var marker_f9c0cec18be1ae056a03e6d6d5555015 = L.marker(
+                [7.505188, 36.475563],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_649f74b5dc90f442d5e9b5ca51474e10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72a0d621cac34c3526afb6374ccdf912 = $(`<div id="html_72a0d621cac34c3526afb6374ccdf912" style="width: 100.0%; height: 100.0%;">- Gocho - 1049542</div>`)[0];
+                popup_649f74b5dc90f442d5e9b5ca51474e10.setContent(html_72a0d621cac34c3526afb6374ccdf912);
+            
+        
+
+        marker_f9c0cec18be1ae056a03e6d6d5555015.bindPopup(popup_649f74b5dc90f442d5e9b5ca51474e10)
+        ;
+
+        
+    
+    
+            var marker_1e1ea30fd6e7c3cd7cd9c7570191fdeb = L.marker(
+                [7.467937, 36.469203],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c88201bd4e984c0376c1cba9f92b17dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daa02c4874c736fa323441ac0a6f22ef = $(`<div id="html_daa02c4874c736fa323441ac0a6f22ef" style="width: 100.0%; height: 100.0%;">- Gaaro - 1049541</div>`)[0];
+                popup_c88201bd4e984c0376c1cba9f92b17dc.setContent(html_daa02c4874c736fa323441ac0a6f22ef);
+            
+        
+
+        marker_1e1ea30fd6e7c3cd7cd9c7570191fdeb.bindPopup(popup_c88201bd4e984c0376c1cba9f92b17dc)
+        ;
+
+        
+    
+    
+            var marker_49dda213183511cf3765c394a4bfb7d1 = L.marker(
+                [7.539127, 36.547313],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e61dd2c2613224d1f5127fb66cb72b0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f5fcfc1f01e98b4577b872d2b557804 = $(`<div id="html_2f5fcfc1f01e98b4577b872d2b557804" style="width: 100.0%; height: 100.0%;">- Ambalta - 1049516</div>`)[0];
+                popup_e61dd2c2613224d1f5127fb66cb72b0f.setContent(html_2f5fcfc1f01e98b4577b872d2b557804);
+            
+        
+
+        marker_49dda213183511cf3765c394a4bfb7d1.bindPopup(popup_e61dd2c2613224d1f5127fb66cb72b0f)
+        ;
+
+        
+    
+    
+            var marker_ef6b56f116a1a43cbd83f38f4ad2fcd9 = L.marker(
+                [7.539359, 36.610335],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6fca282f51d9262060b99e9a295751a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b2cb4a0d1cfe3625651420ca58037d8 = $(`<div id="html_3b2cb4a0d1cfe3625651420ca58037d8" style="width: 100.0%; height: 100.0%;">- Raammee - 1049515</div>`)[0];
+                popup_6fca282f51d9262060b99e9a295751a3.setContent(html_3b2cb4a0d1cfe3625651420ca58037d8);
+            
+        
+
+        marker_ef6b56f116a1a43cbd83f38f4ad2fcd9.bindPopup(popup_6fca282f51d9262060b99e9a295751a3)
+        ;
+
+        
+    
+    
+            var marker_4f5fc013b9fd4544e6cd228cecd92287 = L.marker(
+                [7.550072, 36.618377],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6ad6dbaf894247b67db5ec72cddb458d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00ccb151c62d7556dcaa01f2f4ddf11 = $(`<div id="html_a00ccb151c62d7556dcaa01f2f4ddf11" style="width: 100.0%; height: 100.0%;">- Ginabe - 1049514</div>`)[0];
+                popup_6ad6dbaf894247b67db5ec72cddb458d.setContent(html_a00ccb151c62d7556dcaa01f2f4ddf11);
+            
+        
+
+        marker_4f5fc013b9fd4544e6cd228cecd92287.bindPopup(popup_6ad6dbaf894247b67db5ec72cddb458d)
+        ;
+
+        
+    
+    
+            var marker_2c9f64a4d46deb5522c5542cc6c5b1dc = L.marker(
+                [7.53381, 36.549537],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c908bfb3c8b95153c40a1916d06edd14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e806e21da48973e4b3382e29aabc9b75 = $(`<div id="html_e806e21da48973e4b3382e29aabc9b75" style="width: 100.0%; height: 100.0%;">- Nagade - 1049512</div>`)[0];
+                popup_c908bfb3c8b95153c40a1916d06edd14.setContent(html_e806e21da48973e4b3382e29aabc9b75);
+            
+        
+
+        marker_2c9f64a4d46deb5522c5542cc6c5b1dc.bindPopup(popup_c908bfb3c8b95153c40a1916d06edd14)
+        ;
+
+        
+    
+    
+            var marker_e3ecf2af2db36c59d67164f977368c85 = L.marker(
+                [7.545292, 36.545193],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_3b01a46646a4fe7561d25f56ab3f813c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23e3eb3b0af5a64d20b63d5bb79df0ef = $(`<div id="html_23e3eb3b0af5a64d20b63d5bb79df0ef" style="width: 100.0%; height: 100.0%;">- Ambalta - 1049511</div>`)[0];
+                popup_3b01a46646a4fe7561d25f56ab3f813c.setContent(html_23e3eb3b0af5a64d20b63d5bb79df0ef);
+            
+        
+
+        marker_e3ecf2af2db36c59d67164f977368c85.bindPopup(popup_3b01a46646a4fe7561d25f56ab3f813c)
+        ;
+
+        
+    
+    
+            var marker_b22a857d3e872b8ef20c6314555f0c70 = L.marker(
+                [7.514817, 36.548553],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_047bbc2c55595afed63b3e35eaf091ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98bfbd41ad1c688b8ddc03ce230fb76b = $(`<div id="html_98bfbd41ad1c688b8ddc03ce230fb76b" style="width: 100.0%; height: 100.0%;">- Basiro - 1049510</div>`)[0];
+                popup_047bbc2c55595afed63b3e35eaf091ea.setContent(html_98bfbd41ad1c688b8ddc03ce230fb76b);
+            
+        
+
+        marker_b22a857d3e872b8ef20c6314555f0c70.bindPopup(popup_047bbc2c55595afed63b3e35eaf091ea)
+        ;
+
+        
+    
+    
+            var marker_988331d2dd3b0fc9c5c8eb9577183a3d = L.marker(
+                [7.521818, 36.511997],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_aaa911ad225fc8a39016a1ca7fc197fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_511c8dc43404dc4b3cb21441e84770f8 = $(`<div id="html_511c8dc43404dc4b3cb21441e84770f8" style="width: 100.0%; height: 100.0%;">- Qaqa - 1049498</div>`)[0];
+                popup_aaa911ad225fc8a39016a1ca7fc197fb.setContent(html_511c8dc43404dc4b3cb21441e84770f8);
+            
+        
+
+        marker_988331d2dd3b0fc9c5c8eb9577183a3d.bindPopup(popup_aaa911ad225fc8a39016a1ca7fc197fb)
+        ;
+
+        
+    
+    
+            var marker_17a7a66928c57f5974f3385aa612495f = L.marker(
+                [7.518118, 36.484849],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9629b221867e64afd793ed27da9a6d44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71191583e8a3f6f5df977e738f1c07cf = $(`<div id="html_71191583e8a3f6f5df977e738f1c07cf" style="width: 100.0%; height: 100.0%;">- Laftani - 1049496</div>`)[0];
+                popup_9629b221867e64afd793ed27da9a6d44.setContent(html_71191583e8a3f6f5df977e738f1c07cf);
+            
+        
+
+        marker_17a7a66928c57f5974f3385aa612495f.bindPopup(popup_9629b221867e64afd793ed27da9a6d44)
+        ;
+
+        
+    
+    
+            var marker_97e12a15a25b3bc0dfb504051acbb6d7 = L.marker(
+                [7.532926, 36.483975],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_02262f40fb492f4df101f7256fb91cfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d820cec3b17f9648436f426f06d3e7b = $(`<div id="html_0d820cec3b17f9648436f426f06d3e7b" style="width: 100.0%; height: 100.0%;">- Urgesa - 1049495</div>`)[0];
+                popup_02262f40fb492f4df101f7256fb91cfe.setContent(html_0d820cec3b17f9648436f426f06d3e7b);
+            
+        
+
+        marker_97e12a15a25b3bc0dfb504051acbb6d7.bindPopup(popup_02262f40fb492f4df101f7256fb91cfe)
+        ;
+
+        
+    
+    
+            var marker_f233914e3d4e533798df031f57e3ed0c = L.marker(
+                [7.546039, 36.479429],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0e44b483a683c9b89dd5e783bbd5550d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e953616894ad831d5147d103a909995a = $(`<div id="html_e953616894ad831d5147d103a909995a" style="width: 100.0%; height: 100.0%;">- Buluke Doose - 1049494</div>`)[0];
+                popup_0e44b483a683c9b89dd5e783bbd5550d.setContent(html_e953616894ad831d5147d103a909995a);
+            
+        
+
+        marker_f233914e3d4e533798df031f57e3ed0c.bindPopup(popup_0e44b483a683c9b89dd5e783bbd5550d)
+        ;
+
+        
+    
+    
+            var marker_193aa2a90b99703004c7cb1da8f60f79 = L.marker(
+                [8.299201, 36.90888],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_64147d035049904069af0b450ac9c81f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b3faef86344f371fac822703c2fb25d = $(`<div id="html_4b3faef86344f371fac822703c2fb25d" style="width: 100.0%; height: 100.0%;">- Soloka - 1049414</div>`)[0];
+                popup_64147d035049904069af0b450ac9c81f.setContent(html_4b3faef86344f371fac822703c2fb25d);
+            
+        
+
+        marker_193aa2a90b99703004c7cb1da8f60f79.bindPopup(popup_64147d035049904069af0b450ac9c81f)
+        ;
+
+        
+    
+    
+            var marker_ab9221971dc68f66ed38f1532eef3aa0 = L.marker(
+                [8.487627, 36.758597],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_028dd360aa6f5ae36252bd7dceee5c66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70bb6f23d73884ace40d5786a3e4b4d0 = $(`<div id="html_70bb6f23d73884ace40d5786a3e4b4d0" style="width: 100.0%; height: 100.0%;">- Sarde - 1049413</div>`)[0];
+                popup_028dd360aa6f5ae36252bd7dceee5c66.setContent(html_70bb6f23d73884ace40d5786a3e4b4d0);
+            
+        
+
+        marker_ab9221971dc68f66ed38f1532eef3aa0.bindPopup(popup_028dd360aa6f5ae36252bd7dceee5c66)
+        ;
+
+        
+    
+    
+            var marker_d187c332d631b04dc165716049c1de2c = L.marker(
+                [8.579322, 36.86001],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_421d0c3d06d9b60676c620d7e3e7f3c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8f617a6a3882d4eddf73db01bbd3e5 = $(`<div id="html_3f8f617a6a3882d4eddf73db01bbd3e5" style="width: 100.0%; height: 100.0%;">- Alga - 1049412</div>`)[0];
+                popup_421d0c3d06d9b60676c620d7e3e7f3c1.setContent(html_3f8f617a6a3882d4eddf73db01bbd3e5);
+            
+        
+
+        marker_d187c332d631b04dc165716049c1de2c.bindPopup(popup_421d0c3d06d9b60676c620d7e3e7f3c1)
+        ;
+
+        
+    
+    
+            var marker_9cd82bebb7f9782dae12d50d1091ddde = L.marker(
+                [8.487813, 36.7601],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0db1fdb5d4f60776839a9d0ec9132d74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f7a9b85d03d76ca4a5e2fe94e0e8252 = $(`<div id="html_8f7a9b85d03d76ca4a5e2fe94e0e8252" style="width: 100.0%; height: 100.0%;">- Bakke Reettii - 1049410</div>`)[0];
+                popup_0db1fdb5d4f60776839a9d0ec9132d74.setContent(html_8f7a9b85d03d76ca4a5e2fe94e0e8252);
+            
+        
+
+        marker_9cd82bebb7f9782dae12d50d1091ddde.bindPopup(popup_0db1fdb5d4f60776839a9d0ec9132d74)
+        ;
+
+        
+    
+    
+            var marker_429ac94f1122959ce0dcaf4d4aaa581f = L.marker(
+                [8.585926, 36.871888],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c8afdf33bf0c7f1293ae7772deb51aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddc615b40690e64676eb12d70b1698cc = $(`<div id="html_ddc615b40690e64676eb12d70b1698cc" style="width: 100.0%; height: 100.0%;">- Iyasi - 1049409</div>`)[0];
+                popup_c8afdf33bf0c7f1293ae7772deb51aa4.setContent(html_ddc615b40690e64676eb12d70b1698cc);
+            
+        
+
+        marker_429ac94f1122959ce0dcaf4d4aaa581f.bindPopup(popup_c8afdf33bf0c7f1293ae7772deb51aa4)
+        ;
+
+        
+    
+    
+            var marker_3d8e67b7bdcc1418922c0e0148572178 = L.marker(
+                [8.199124, 36.987376],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e9d8bf3831c21521776dd59e79b45528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db9ccd46faa15998793af36b48aed81 = $(`<div id="html_1db9ccd46faa15998793af36b48aed81" style="width: 100.0%; height: 100.0%;">- Mayyee - 1049408</div>`)[0];
+                popup_e9d8bf3831c21521776dd59e79b45528.setContent(html_1db9ccd46faa15998793af36b48aed81);
+            
+        
+
+        marker_3d8e67b7bdcc1418922c0e0148572178.bindPopup(popup_e9d8bf3831c21521776dd59e79b45528)
+        ;
+
+        
+    
+    
+            var marker_7d2509754099d9861ccbf4a6a7ac7130 = L.marker(
+                [8.395486, 37.066261],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_de3907c3a398dc7d856ebb7eccc420f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e55687bc710cf5280bbeb3c9661bd4a7 = $(`<div id="html_e55687bc710cf5280bbeb3c9661bd4a7" style="width: 100.0%; height: 100.0%;">- Ooso - 1049407</div>`)[0];
+                popup_de3907c3a398dc7d856ebb7eccc420f5.setContent(html_e55687bc710cf5280bbeb3c9661bd4a7);
+            
+        
+
+        marker_7d2509754099d9861ccbf4a6a7ac7130.bindPopup(popup_de3907c3a398dc7d856ebb7eccc420f5)
+        ;
+
+        
+    
+    
+            var marker_e53b6c0cf09c25682a90b81539a183a4 = L.marker(
+                [8.30071, 37.020322],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_eccab0805ebe1db910ba6dadb532f42b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5b3c1d55055f0f4380c87182ad2fdab = $(`<div id="html_b5b3c1d55055f0f4380c87182ad2fdab" style="width: 100.0%; height: 100.0%;">- Madoo - 1049406</div>`)[0];
+                popup_eccab0805ebe1db910ba6dadb532f42b.setContent(html_b5b3c1d55055f0f4380c87182ad2fdab);
+            
+        
+
+        marker_e53b6c0cf09c25682a90b81539a183a4.bindPopup(popup_eccab0805ebe1db910ba6dadb532f42b)
+        ;
+
+        
+    
+    
+            var marker_e294c84b5fd7bcf7b7788c5879b4054f = L.marker(
+                [8.375259, 37.072112],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f807247b28882a824183a85ceffc8f72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddc3084285ff1e1f1d2d6ab1e317f8dc = $(`<div id="html_ddc3084285ff1e1f1d2d6ab1e317f8dc" style="width: 100.0%; height: 100.0%;">- Allabero - 1049405</div>`)[0];
+                popup_f807247b28882a824183a85ceffc8f72.setContent(html_ddc3084285ff1e1f1d2d6ab1e317f8dc);
+            
+        
+
+        marker_e294c84b5fd7bcf7b7788c5879b4054f.bindPopup(popup_f807247b28882a824183a85ceffc8f72)
+        ;
+
+        
+    
+    
+            var marker_cceb60afb4d8927d7e3526235e85fef9 = L.marker(
+                [8.11599, 36.903181],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7bdaef74bce25a49ee10ce255eaffcb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b96659d952dc8355b7b6d2d00892379 = $(`<div id="html_9b96659d952dc8355b7b6d2d00892379" style="width: 100.0%; height: 100.0%;">- Sadacha - 1049084</div>`)[0];
+                popup_7bdaef74bce25a49ee10ce255eaffcb4.setContent(html_9b96659d952dc8355b7b6d2d00892379);
+            
+        
+
+        marker_cceb60afb4d8927d7e3526235e85fef9.bindPopup(popup_7bdaef74bce25a49ee10ce255eaffcb4)
+        ;
+
+        
+    
+    
+            var marker_6b418bd7a4033e8a74b3457b90a6bf23 = L.marker(
+                [8.125031, 36.912603],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_485c8470c4fda9b55613da6abe1a2d47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87cc36b8ea6f2599a5673994343feb19 = $(`<div id="html_87cc36b8ea6f2599a5673994343feb19" style="width: 100.0%; height: 100.0%;">- Buko - 1049083</div>`)[0];
+                popup_485c8470c4fda9b55613da6abe1a2d47.setContent(html_87cc36b8ea6f2599a5673994343feb19);
+            
+        
+
+        marker_6b418bd7a4033e8a74b3457b90a6bf23.bindPopup(popup_485c8470c4fda9b55613da6abe1a2d47)
+        ;
+
+        
+    
+    
+            var marker_05797349ff83c2cfc67c46a63c22e493 = L.marker(
+                [8.106268, 36.929117],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_36a53c702683a025468d71fccf6b3b6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_284728b7622b2fcb96bceaed7bf7315e = $(`<div id="html_284728b7622b2fcb96bceaed7bf7315e" style="width: 100.0%; height: 100.0%;">- Utee - 1049082</div>`)[0];
+                popup_36a53c702683a025468d71fccf6b3b6e.setContent(html_284728b7622b2fcb96bceaed7bf7315e);
+            
+        
+
+        marker_05797349ff83c2cfc67c46a63c22e493.bindPopup(popup_36a53c702683a025468d71fccf6b3b6e)
+        ;
+
+        
+    
+    
+            var marker_819877b4f3e8350476dcf31f371b551e = L.marker(
+                [8.191909, 36.967942],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_86ed2d7d8272b60107a23ac3fdd7c5d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fbc6a1be14622c1d7379c8af6afcfe0 = $(`<div id="html_7fbc6a1be14622c1d7379c8af6afcfe0" style="width: 100.0%; height: 100.0%;">- Kobo - 1049080</div>`)[0];
+                popup_86ed2d7d8272b60107a23ac3fdd7c5d2.setContent(html_7fbc6a1be14622c1d7379c8af6afcfe0);
+            
+        
+
+        marker_819877b4f3e8350476dcf31f371b551e.bindPopup(popup_86ed2d7d8272b60107a23ac3fdd7c5d2)
+        ;
+
+        
+    
+    
+            var marker_0b878640c619985eb48d650da1b74e09 = L.marker(
+                [8.199446, 36.945781],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8fc2045a1accd5306154bce546f669f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ce9a4ef439fd50865dd26d6600619b = $(`<div id="html_d5ce9a4ef439fd50865dd26d6600619b" style="width: 100.0%; height: 100.0%;">- Darita 1st - 1049076</div>`)[0];
+                popup_8fc2045a1accd5306154bce546f669f5.setContent(html_d5ce9a4ef439fd50865dd26d6600619b);
+            
+        
+
+        marker_0b878640c619985eb48d650da1b74e09.bindPopup(popup_8fc2045a1accd5306154bce546f669f5)
+        ;
+
+        
+    
+    
+            var marker_c82d9451e1638e14e26d61672b1d1429 = L.marker(
+                [8.230757, 36.905126],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d575de4b4177662aca9b63dc60078c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32ee8973eadd3326528b4754d2e768fc = $(`<div id="html_32ee8973eadd3326528b4754d2e768fc" style="width: 100.0%; height: 100.0%;">- Tabote - 1049074</div>`)[0];
+                popup_d575de4b4177662aca9b63dc60078c3f.setContent(html_32ee8973eadd3326528b4754d2e768fc);
+            
+        
+
+        marker_c82d9451e1638e14e26d61672b1d1429.bindPopup(popup_d575de4b4177662aca9b63dc60078c3f)
+        ;
+
+        
+    
+    
+            var marker_27e66e1c0a11bad5afff59a089e629a7 = L.marker(
+                [8.227497, 36.9043],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a1abee95f71d0693bd8fe587437b10a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2c930958369ac8ea99f953679dd93a2 = $(`<div id="html_c2c930958369ac8ea99f953679dd93a2" style="width: 100.0%; height: 100.0%;">- Iyaru - 1049069</div>`)[0];
+                popup_a1abee95f71d0693bd8fe587437b10a7.setContent(html_c2c930958369ac8ea99f953679dd93a2);
+            
+        
+
+        marker_27e66e1c0a11bad5afff59a089e629a7.bindPopup(popup_a1abee95f71d0693bd8fe587437b10a7)
+        ;
+
+        
+    
+    
+            var marker_7e5e4cd0ae389a559a0a3b6de898bcd7 = L.marker(
+                [8.224883, 36.83924],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_546e793eadabce05f2cac0680c8386a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c677a687698d9c4483ff4baaabcd8001 = $(`<div id="html_c677a687698d9c4483ff4baaabcd8001" style="width: 100.0%; height: 100.0%;">- Madda Jaalala - 1049067</div>`)[0];
+                popup_546e793eadabce05f2cac0680c8386a0.setContent(html_c677a687698d9c4483ff4baaabcd8001);
+            
+        
+
+        marker_7e5e4cd0ae389a559a0a3b6de898bcd7.bindPopup(popup_546e793eadabce05f2cac0680c8386a0)
+        ;
+
+        
+    
+    
+            var marker_a7e932d43d48eaf75963a17eef873e0a = L.marker(
+                [8.211138, 36.840852],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5e65e51ee872f86b88e54700ac178eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b14913f7d8741ef770fc0be35c9544 = $(`<div id="html_a7b14913f7d8741ef770fc0be35c9544" style="width: 100.0%; height: 100.0%;">- Akuku - 1049065</div>`)[0];
+                popup_5e65e51ee872f86b88e54700ac178eb7.setContent(html_a7b14913f7d8741ef770fc0be35c9544);
+            
+        
+
+        marker_a7e932d43d48eaf75963a17eef873e0a.bindPopup(popup_5e65e51ee872f86b88e54700ac178eb7)
+        ;
+
+        
+    
+    
+            var marker_8a9d40c313c276692f18a3f26e33dfea = L.marker(
+                [8.202563, 36.840309],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7413923858992b77e73fd758394642f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4f6a04944e0826713d09761d93d17b = $(`<div id="html_ba4f6a04944e0826713d09761d93d17b" style="width: 100.0%; height: 100.0%;">- Agilo - 1049035</div>`)[0];
+                popup_7413923858992b77e73fd758394642f8.setContent(html_ba4f6a04944e0826713d09761d93d17b);
+            
+        
+
+        marker_8a9d40c313c276692f18a3f26e33dfea.bindPopup(popup_7413923858992b77e73fd758394642f8)
+        ;
+
+        
+    
+    
+            var marker_5151689c743af8618e877c863492fefe = L.marker(
+                [8.416127, 37.05387],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6b10c5533865f416a9f8c6b805d672f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a5a82a77c2ea1635060b014b480bedd = $(`<div id="html_3a5a82a77c2ea1635060b014b480bedd" style="width: 100.0%; height: 100.0%;">Ethiopia - Adami - 1049034</div>`)[0];
+                popup_6b10c5533865f416a9f8c6b805d672f4.setContent(html_3a5a82a77c2ea1635060b014b480bedd);
+            
+        
+
+        marker_5151689c743af8618e877c863492fefe.bindPopup(popup_6b10c5533865f416a9f8c6b805d672f4)
+        ;
+
+        
+    
+    
+            var marker_5e50c39afd0c25371e91e5c984d5e540 = L.marker(
+                [8.428564, 37.047108],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b03c191df3553b4f6ec850537ce399ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccddbdba068bda34f7e0e12d4d31bb34 = $(`<div id="html_ccddbdba068bda34f7e0e12d4d31bb34" style="width: 100.0%; height: 100.0%;">Ethiopia - Lalisa - 1049033</div>`)[0];
+                popup_b03c191df3553b4f6ec850537ce399ab.setContent(html_ccddbdba068bda34f7e0e12d4d31bb34);
+            
+        
+
+        marker_5e50c39afd0c25371e91e5c984d5e540.bindPopup(popup_b03c191df3553b4f6ec850537ce399ab)
+        ;
+
+        
+    
+    
+            var marker_390830b6562fc121d60db2ac1b117ad7 = L.marker(
+                [8.23687, 36.981789],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4973fc72430980ecb0c23f9c1d4c43a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e13ebf5bf7d7087c0ce980782c2e4b1c = $(`<div id="html_e13ebf5bf7d7087c0ce980782c2e4b1c" style="width: 100.0%; height: 100.0%;">- Soobo - 1049031</div>`)[0];
+                popup_4973fc72430980ecb0c23f9c1d4c43a4.setContent(html_e13ebf5bf7d7087c0ce980782c2e4b1c);
+            
+        
+
+        marker_390830b6562fc121d60db2ac1b117ad7.bindPopup(popup_4973fc72430980ecb0c23f9c1d4c43a4)
+        ;
+
+        
+    
+    
+            var marker_f733d80e2989b153308df556187b881c = L.marker(
+                [8.52944, 36.972048],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d9a6939cb84b012c045e08022e4b5ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efe5852832edde9fa08f6555744d98ee = $(`<div id="html_efe5852832edde9fa08f6555744d98ee" style="width: 100.0%; height: 100.0%;">- Miiloo Second - 1049030</div>`)[0];
+                popup_d9a6939cb84b012c045e08022e4b5ee8.setContent(html_efe5852832edde9fa08f6555744d98ee);
+            
+        
+
+        marker_f733d80e2989b153308df556187b881c.bindPopup(popup_d9a6939cb84b012c045e08022e4b5ee8)
+        ;
+
+        
+    
+    
+            var marker_87d305d8be49ec8438513f274550dc49 = L.marker(
+                [8.438142, 37.079194],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6885a5f6aa2db6ef702fbd975ceba705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7357a1b022072a8876a1d6435559e20b = $(`<div id="html_7357a1b022072a8876a1d6435559e20b" style="width: 100.0%; height: 100.0%;">- Inayyo - 1049024</div>`)[0];
+                popup_6885a5f6aa2db6ef702fbd975ceba705.setContent(html_7357a1b022072a8876a1d6435559e20b);
+            
+        
+
+        marker_87d305d8be49ec8438513f274550dc49.bindPopup(popup_6885a5f6aa2db6ef702fbd975ceba705)
+        ;
+
+        
+    
+    
+            var marker_31dab32384e193bf6fa549c50ab04273 = L.marker(
+                [8.43863, 37.08036],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_28d52f2470b052dfc34013de0a83e94c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27af344b5e1df6bb3ab6e23e53a091f0 = $(`<div id="html_27af344b5e1df6bb3ab6e23e53a091f0" style="width: 100.0%; height: 100.0%;">- Inayyoo - 1049023</div>`)[0];
+                popup_28d52f2470b052dfc34013de0a83e94c.setContent(html_27af344b5e1df6bb3ab6e23e53a091f0);
+            
+        
+
+        marker_31dab32384e193bf6fa549c50ab04273.bindPopup(popup_28d52f2470b052dfc34013de0a83e94c)
+        ;
+
+        
+    
+    
+            var marker_15c437eb3b7b1c64f0610716c1554a6a = L.marker(
+                [8.507821, 36.981211],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_2fc550d0a01ab96f976e8467ba2a21fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca19cd549e0886487b02c9ce57ef6c7a = $(`<div id="html_ca19cd549e0886487b02c9ce57ef6c7a" style="width: 100.0%; height: 100.0%;">- Gondore - 1049022</div>`)[0];
+                popup_2fc550d0a01ab96f976e8467ba2a21fc.setContent(html_ca19cd549e0886487b02c9ce57ef6c7a);
+            
+        
+
+        marker_15c437eb3b7b1c64f0610716c1554a6a.bindPopup(popup_2fc550d0a01ab96f976e8467ba2a21fc)
+        ;
+
+        
+    
+    
+            var marker_d61a3390d2c520b506c340182b2339af = L.marker(
+                [8.508014, 36.988372],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_405cd127c77391116f4f905ac523dc8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e06a4dd22b8837f96790d9e1c048e4d3 = $(`<div id="html_e06a4dd22b8837f96790d9e1c048e4d3" style="width: 100.0%; height: 100.0%;">- Caffe Third - 1049021</div>`)[0];
+                popup_405cd127c77391116f4f905ac523dc8f.setContent(html_e06a4dd22b8837f96790d9e1c048e4d3);
+            
+        
+
+        marker_d61a3390d2c520b506c340182b2339af.bindPopup(popup_405cd127c77391116f4f905ac523dc8f)
+        ;
+
+        
+    
+    
+            var marker_42613824edfab88611b52cbbf5f5ae5f = L.marker(
+                [8.449428, 36.943389],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_2384f4e14bf3a578a51c3d30092647b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199b2629be467ef52f277af84f9dd270 = $(`<div id="html_199b2629be467ef52f277af84f9dd270" style="width: 100.0%; height: 100.0%;">- Dayidi - 1049020</div>`)[0];
+                popup_2384f4e14bf3a578a51c3d30092647b5.setContent(html_199b2629be467ef52f277af84f9dd270);
+            
+        
+
+        marker_42613824edfab88611b52cbbf5f5ae5f.bindPopup(popup_2384f4e14bf3a578a51c3d30092647b5)
+        ;
+
+        
+    
+    
+            var marker_9025020770e805b1f96cfa1ce6865c9e = L.marker(
+                [8.459606, 36.931354],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_2ac6557f4a42f6c78182c5813d1b50e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88fdcec2d22f4f76f8e3da303bfa7313 = $(`<div id="html_88fdcec2d22f4f76f8e3da303bfa7313" style="width: 100.0%; height: 100.0%;">- Dunga - 1049019</div>`)[0];
+                popup_2ac6557f4a42f6c78182c5813d1b50e1.setContent(html_88fdcec2d22f4f76f8e3da303bfa7313);
+            
+        
+
+        marker_9025020770e805b1f96cfa1ce6865c9e.bindPopup(popup_2ac6557f4a42f6c78182c5813d1b50e1)
+        ;
+
+        
+    
+    
+            var marker_9c72fd25718f0d881a846ac2bb5daab8 = L.marker(
+                [9.263297, 40.874842],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a612a7d33a24c17f637c18f11ff90977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04e5b984b7d45a31f30b12112052ebe2 = $(`<div id="html_04e5b984b7d45a31f30b12112052ebe2" style="width: 100.0%; height: 100.0%;">- Bukatota - 1050264</div>`)[0];
+                popup_a612a7d33a24c17f637c18f11ff90977.setContent(html_04e5b984b7d45a31f30b12112052ebe2);
+            
+        
+
+        marker_9c72fd25718f0d881a846ac2bb5daab8.bindPopup(popup_a612a7d33a24c17f637c18f11ff90977)
+        ;
+
+        
+    
+    
+            var marker_3ad87d503638b93e0e56c9a8e399cbfd = L.marker(
+                [9.229973, 40.750695],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6fab60ad7ad1ce1665b39e07883dbf7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae8a015ec483f5cfaecfeed68fdaf51e = $(`<div id="html_ae8a015ec483f5cfaecfeed68fdaf51e" style="width: 100.0%; height: 100.0%;">- Muzika Racha - 1050355</div>`)[0];
+                popup_6fab60ad7ad1ce1665b39e07883dbf7f.setContent(html_ae8a015ec483f5cfaecfeed68fdaf51e);
+            
+        
+
+        marker_3ad87d503638b93e0e56c9a8e399cbfd.bindPopup(popup_6fab60ad7ad1ce1665b39e07883dbf7f)
+        ;
+
+        
+    
+    
+            var marker_e16664c68064bcf241212979333baf4b = L.marker(
+                [9.235204, 40.760722],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_fdd4eae77f8f9a0a8dfa1209dfc87baf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6c5f81be2b5c402e4da5b7c414de89c = $(`<div id="html_d6c5f81be2b5c402e4da5b7c414de89c" style="width: 100.0%; height: 100.0%;">- Federal Camp - 1050353</div>`)[0];
+                popup_fdd4eae77f8f9a0a8dfa1209dfc87baf.setContent(html_d6c5f81be2b5c402e4da5b7c414de89c);
+            
+        
+
+        marker_e16664c68064bcf241212979333baf4b.bindPopup(popup_fdd4eae77f8f9a0a8dfa1209dfc87baf)
+        ;
+
+        
+    
+    
+            var marker_9b1c2487e667a666ae711a15093ec248 = L.marker(
+                [9.238329, 40.758103],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e10615564ab2c6afad48d32c4cbe3c4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_405d15f8a9f36e66dfbccd9c73a8a2d2 = $(`<div id="html_405d15f8a9f36e66dfbccd9c73a8a2d2" style="width: 100.0%; height: 100.0%;">- Kubaniya - 1050352</div>`)[0];
+                popup_e10615564ab2c6afad48d32c4cbe3c4a.setContent(html_405d15f8a9f36e66dfbccd9c73a8a2d2);
+            
+        
+
+        marker_9b1c2487e667a666ae711a15093ec248.bindPopup(popup_e10615564ab2c6afad48d32c4cbe3c4a)
+        ;
+
+        
+    
+    
+            var marker_1ec339645f5564dbf8727c6337623c69 = L.marker(
+                [9.241594, 40.752199],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f1e6b63d9ef9700666c7101df95ea109 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ce64fc273b13b39e5c413ec2d2a9cf7 = $(`<div id="html_1ce64fc273b13b39e5c413ec2d2a9cf7" style="width: 100.0%; height: 100.0%;">- Bunoo 4 - 1050351</div>`)[0];
+                popup_f1e6b63d9ef9700666c7101df95ea109.setContent(html_1ce64fc273b13b39e5c413ec2d2a9cf7);
+            
+        
+
+        marker_1ec339645f5564dbf8727c6337623c69.bindPopup(popup_f1e6b63d9ef9700666c7101df95ea109)
+        ;
+
+        
+    
+    
+            var marker_c65e515126093cffe9b1f942dfad2e3c = L.marker(
+                [9.24275, 40.752426],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b582f0d1a2695e09db4b675ab978e0af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ecf9a5cf1f508211c9b85e2ebc5376c = $(`<div id="html_1ecf9a5cf1f508211c9b85e2ebc5376c" style="width: 100.0%; height: 100.0%;">- Bunoo - 1050350</div>`)[0];
+                popup_b582f0d1a2695e09db4b675ab978e0af.setContent(html_1ecf9a5cf1f508211c9b85e2ebc5376c);
+            
+        
+
+        marker_c65e515126093cffe9b1f942dfad2e3c.bindPopup(popup_b582f0d1a2695e09db4b675ab978e0af)
+        ;
+
+        
+    
+    
+            var marker_3cb1ce6b50fa97e1c4ca9fe81aa29c83 = L.marker(
+                [9.240223, 40.755094],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4e6cf78455f636d862078303e992001c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78294aaee787edf663f7418e426bfc16 = $(`<div id="html_78294aaee787edf663f7418e426bfc16" style="width: 100.0%; height: 100.0%;">- Bunoo 2 - 1050349</div>`)[0];
+                popup_4e6cf78455f636d862078303e992001c.setContent(html_78294aaee787edf663f7418e426bfc16);
+            
+        
+
+        marker_3cb1ce6b50fa97e1c4ca9fe81aa29c83.bindPopup(popup_4e6cf78455f636d862078303e992001c)
+        ;
+
+        
+    
+    
+            var marker_6a799277c65f6bd3187f7322b06e797b = L.marker(
+                [9.21248, 40.680851],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_aa6da862afc3670ede0b1f5f38fca5cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb42950fde4b96b8e3bdbcd0eef15986 = $(`<div id="html_eb42950fde4b96b8e3bdbcd0eef15986" style="width: 100.0%; height: 100.0%;">- Morfo 1 - 1050345</div>`)[0];
+                popup_aa6da862afc3670ede0b1f5f38fca5cc.setContent(html_eb42950fde4b96b8e3bdbcd0eef15986);
+            
+        
+
+        marker_6a799277c65f6bd3187f7322b06e797b.bindPopup(popup_aa6da862afc3670ede0b1f5f38fca5cc)
+        ;
+
+        
+    
+    
+            var marker_87fce2b073dc52f89dd35dd98f0e2304 = L.marker(
+                [9.210234, 40.696235],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_bd1ef5b7f6e72504209a301b76e3d94f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2524a0a2f53b2b10b0c8a811907a606 = $(`<div id="html_b2524a0a2f53b2b10b0c8a811907a606" style="width: 100.0%; height: 100.0%;">- Ahmed yesuf - 1050344</div>`)[0];
+                popup_bd1ef5b7f6e72504209a301b76e3d94f.setContent(html_b2524a0a2f53b2b10b0c8a811907a606);
+            
+        
+
+        marker_87fce2b073dc52f89dd35dd98f0e2304.bindPopup(popup_bd1ef5b7f6e72504209a301b76e3d94f)
+        ;
+
+        
+    
+    
+            var marker_628e03588190f124e36b5bc36b0750ee = L.marker(
+                [9.200692, 40.683978],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9c25e1010fb5c0487f3183a7f9ccdaac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2679adc9b80c27f447fbd6d482738c85 = $(`<div id="html_2679adc9b80c27f447fbd6d482738c85" style="width: 100.0%; height: 100.0%;">- Morfo - 1050343</div>`)[0];
+                popup_9c25e1010fb5c0487f3183a7f9ccdaac.setContent(html_2679adc9b80c27f447fbd6d482738c85);
+            
+        
+
+        marker_628e03588190f124e36b5bc36b0750ee.bindPopup(popup_9c25e1010fb5c0487f3183a7f9ccdaac)
+        ;
+
+        
+    
+    
+            var marker_e70711d67600db9fdc874ffc1427a62e = L.marker(
+                [9.245963, 40.588837],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a9204c232dfef5c42aebd18be03a1bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc870d884696a123a4010c1723f68606 = $(`<div id="html_dc870d884696a123a4010c1723f68606" style="width: 100.0%; height: 100.0%;">- Galmo - 1050342</div>`)[0];
+                popup_a9204c232dfef5c42aebd18be03a1bb0.setContent(html_dc870d884696a123a4010c1723f68606);
+            
+        
+
+        marker_e70711d67600db9fdc874ffc1427a62e.bindPopup(popup_a9204c232dfef5c42aebd18be03a1bb0)
+        ;
+
+        
+    
+    
+            var marker_c9c163ae70522c44bb5175343503c4de = L.marker(
+                [9.215683, 40.600095],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_ea2b30b8b204cca791a3a7afe2552095 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83b175bda0c08c84321a3a47186d30fe = $(`<div id="html_83b175bda0c08c84321a3a47186d30fe" style="width: 100.0%; height: 100.0%;">- She Ahmed - 1050341</div>`)[0];
+                popup_ea2b30b8b204cca791a3a7afe2552095.setContent(html_83b175bda0c08c84321a3a47186d30fe);
+            
+        
+
+        marker_c9c163ae70522c44bb5175343503c4de.bindPopup(popup_ea2b30b8b204cca791a3a7afe2552095)
+        ;
+
+        
+    
+    
+            var marker_e31609c80498bf309f12baaf4f1736b0 = L.marker(
+                [9.108258, 40.650093],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b79f356ad2794fa79a464502b09d1259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c620354d77a2f121d740a4f39af7f1a = $(`<div id="html_5c620354d77a2f121d740a4f39af7f1a" style="width: 100.0%; height: 100.0%;">- Challe - 1050322</div>`)[0];
+                popup_b79f356ad2794fa79a464502b09d1259.setContent(html_5c620354d77a2f121d740a4f39af7f1a);
+            
+        
+
+        marker_e31609c80498bf309f12baaf4f1736b0.bindPopup(popup_b79f356ad2794fa79a464502b09d1259)
+        ;
+
+        
+    
+    
+            var marker_ff08881056864e536ee6bfc901a356eb = L.marker(
+                [9.105219, 40.648908],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_662501f713f5734cdc73e4945fdaa8d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eab5a63af5799cc8082655ae2fb2d776 = $(`<div id="html_eab5a63af5799cc8082655ae2fb2d776" style="width: 100.0%; height: 100.0%;">- Challe - 1050321</div>`)[0];
+                popup_662501f713f5734cdc73e4945fdaa8d9.setContent(html_eab5a63af5799cc8082655ae2fb2d776);
+            
+        
+
+        marker_ff08881056864e536ee6bfc901a356eb.bindPopup(popup_662501f713f5734cdc73e4945fdaa8d9)
+        ;
+
+        
+    
+    
+            var marker_f3c3fc87fc09f2f16dcc53d5a3741df8 = L.marker(
+                [9.138561, 40.662378],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_2bde341f66bea296c18d6e686ef62eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af1c336d2b2447a4a53cdcbb0639d331 = $(`<div id="html_af1c336d2b2447a4a53cdcbb0639d331" style="width: 100.0%; height: 100.0%;">- Gulfate - 1050320</div>`)[0];
+                popup_2bde341f66bea296c18d6e686ef62eb3.setContent(html_af1c336d2b2447a4a53cdcbb0639d331);
+            
+        
+
+        marker_f3c3fc87fc09f2f16dcc53d5a3741df8.bindPopup(popup_2bde341f66bea296c18d6e686ef62eb3)
+        ;
+
+        
+    
+    
+            var marker_415b7dd1851ac16ce83e46b1ecfa342d = L.marker(
+                [9.13293, 40.693425],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c2e47d557d4259ebd2f8ed2dbe5a9abf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea0492bccce6f27c12f6574736fca225 = $(`<div id="html_ea0492bccce6f27c12f6574736fca225" style="width: 100.0%; height: 100.0%;">- Tutuftu - 1050317</div>`)[0];
+                popup_c2e47d557d4259ebd2f8ed2dbe5a9abf.setContent(html_ea0492bccce6f27c12f6574736fca225);
+            
+        
+
+        marker_415b7dd1851ac16ce83e46b1ecfa342d.bindPopup(popup_c2e47d557d4259ebd2f8ed2dbe5a9abf)
+        ;
+
+        
+    
+    
+            var marker_9fbf17590b0aed5ddc9410593c6f0810 = L.marker(
+                [9.160612, 40.750226],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_95e3787fdfb4a5589e07ee7019353aea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0db949638a3adb416333e8bb2acf9bfd = $(`<div id="html_0db949638a3adb416333e8bb2acf9bfd" style="width: 100.0%; height: 100.0%;">- Dabala - 1050312</div>`)[0];
+                popup_95e3787fdfb4a5589e07ee7019353aea.setContent(html_0db949638a3adb416333e8bb2acf9bfd);
+            
+        
+
+        marker_9fbf17590b0aed5ddc9410593c6f0810.bindPopup(popup_95e3787fdfb4a5589e07ee7019353aea)
+        ;
+
+        
+    
+    
+            var marker_901f306a73e127d8ef4162d43ab21956 = L.marker(
+                [9.114975, 40.767674],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_35913f99dc23201d538502b152519ee7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b17612dfad833df66c9f2cc32ae28995 = $(`<div id="html_b17612dfad833df66c9f2cc32ae28995" style="width: 100.0%; height: 100.0%;">- Gaara Ale - 1050311</div>`)[0];
+                popup_35913f99dc23201d538502b152519ee7.setContent(html_b17612dfad833df66c9f2cc32ae28995);
+            
+        
+
+        marker_901f306a73e127d8ef4162d43ab21956.bindPopup(popup_35913f99dc23201d538502b152519ee7)
+        ;
+
+        
+    
+    
+            var marker_35b0ade406ca43e9ddc02ce0ddcda11a = L.marker(
+                [9.178255, 40.7858],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_43bb083dfd4d277bf3a76ee27801c213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5808e0563771988ee7e23eb3c81637d4 = $(`<div id="html_5808e0563771988ee7e23eb3c81637d4" style="width: 100.0%; height: 100.0%;">- Torboyo - 1050290</div>`)[0];
+                popup_43bb083dfd4d277bf3a76ee27801c213.setContent(html_5808e0563771988ee7e23eb3c81637d4);
+            
+        
+
+        marker_35b0ade406ca43e9ddc02ce0ddcda11a.bindPopup(popup_43bb083dfd4d277bf3a76ee27801c213)
+        ;
+
+        
+    
+    
+            var marker_73538ff9c21b6fa0f68ade48a833569a = L.marker(
+                [9.157338, 40.795817],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5cd23f48467fa3e85af99b0263e477a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c951721474d4ead3c3f5c9198d68aed7 = $(`<div id="html_c951721474d4ead3c3f5c9198d68aed7" style="width: 100.0%; height: 100.0%;">- Jilbo - 1050289</div>`)[0];
+                popup_5cd23f48467fa3e85af99b0263e477a5.setContent(html_c951721474d4ead3c3f5c9198d68aed7);
+            
+        
+
+        marker_73538ff9c21b6fa0f68ade48a833569a.bindPopup(popup_5cd23f48467fa3e85af99b0263e477a5)
+        ;
+
+        
+    
+    
+            var marker_0a51a28e0dbf52e1955d111a408d0a92 = L.marker(
+                [9.158333, 40.794098],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6d90dabb7ea642a84f2e075f32382cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9f336c389d66401ba2024bf9cf0d69e = $(`<div id="html_e9f336c389d66401ba2024bf9cf0d69e" style="width: 100.0%; height: 100.0%;">- Baala Adii - 1050288</div>`)[0];
+                popup_6d90dabb7ea642a84f2e075f32382cfa.setContent(html_e9f336c389d66401ba2024bf9cf0d69e);
+            
+        
+
+        marker_0a51a28e0dbf52e1955d111a408d0a92.bindPopup(popup_6d90dabb7ea642a84f2e075f32382cfa)
+        ;
+
+        
+    
+    
+            var marker_b1ecfcad62925dda3dfe599a78aa71f3 = L.marker(
+                [9.151211, 40.796897],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_152c126283299ca4b903f04b6f15b60d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_546b5b42bf621295ac7c5dc2fcab7137 = $(`<div id="html_546b5b42bf621295ac7c5dc2fcab7137" style="width: 100.0%; height: 100.0%;">- Tuka - 1050287</div>`)[0];
+                popup_152c126283299ca4b903f04b6f15b60d.setContent(html_546b5b42bf621295ac7c5dc2fcab7137);
+            
+        
+
+        marker_b1ecfcad62925dda3dfe599a78aa71f3.bindPopup(popup_152c126283299ca4b903f04b6f15b60d)
+        ;
+
+        
+    
+    
+            var marker_ad94bd1562be0da819685b8187237eb8 = L.marker(
+                [9.193293, 40.830823],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_492605c57a53e59ffcb403c18796f26d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a14a8967d4c24ab8d10793686491862 = $(`<div id="html_5a14a8967d4c24ab8d10793686491862" style="width: 100.0%; height: 100.0%;">- Seifi Abrahim - 1050285</div>`)[0];
+                popup_492605c57a53e59ffcb403c18796f26d.setContent(html_5a14a8967d4c24ab8d10793686491862);
+            
+        
+
+        marker_ad94bd1562be0da819685b8187237eb8.bindPopup(popup_492605c57a53e59ffcb403c18796f26d)
+        ;
+
+        
+    
+    
+            var marker_bc65a9ab68cb0940a57e9cb4f7cda9d7 = L.marker(
+                [9.243241, 40.815189],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_aeab8637aa143ad3b29f2b1d04489c1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006ed7dcac24b9ed3cc61ee553a1fa0f = $(`<div id="html_006ed7dcac24b9ed3cc61ee553a1fa0f" style="width: 100.0%; height: 100.0%;">- Aamade - 1050284</div>`)[0];
+                popup_aeab8637aa143ad3b29f2b1d04489c1d.setContent(html_006ed7dcac24b9ed3cc61ee553a1fa0f);
+            
+        
+
+        marker_bc65a9ab68cb0940a57e9cb4f7cda9d7.bindPopup(popup_aeab8637aa143ad3b29f2b1d04489c1d)
+        ;
+
+        
+    
+    
+            var marker_77cb5a456fe019d8894874b9bf05d980 = L.marker(
+                [9.222528, 40.849596],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_58408ac3d7311014ab13a2c1721a13cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bd44a36c0c9316279a4875c6ddc5e6b = $(`<div id="html_6bd44a36c0c9316279a4875c6ddc5e6b" style="width: 100.0%; height: 100.0%;">- Noolee - 1050266</div>`)[0];
+                popup_58408ac3d7311014ab13a2c1721a13cc.setContent(html_6bd44a36c0c9316279a4875c6ddc5e6b);
+            
+        
+
+        marker_77cb5a456fe019d8894874b9bf05d980.bindPopup(popup_58408ac3d7311014ab13a2c1721a13cc)
+        ;
+
+        
+    
+    
+            var marker_064b2342830dcc8325879833f14e5e20 = L.marker(
+                [9.245739, 40.831311],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c71185774a3a06a39fb84fe95fdf4bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7207ff5c1f78adb19af8b355dd729c59 = $(`<div id="html_7207ff5c1f78adb19af8b355dd729c59" style="width: 100.0%; height: 100.0%;">- Burii - 1050265</div>`)[0];
+                popup_c71185774a3a06a39fb84fe95fdf4bf9.setContent(html_7207ff5c1f78adb19af8b355dd729c59);
+            
+        
+
+        marker_064b2342830dcc8325879833f14e5e20.bindPopup(popup_c71185774a3a06a39fb84fe95fdf4bf9)
+        ;
+
+        
+    
+    
+            var marker_2e3dcc7634fc0595793ef31d061bc3d0 = L.marker(
+                [9.259084, 40.877005],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_274c0ea0b51c597202018387c4dcfc52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15702833eb88e3cab342be4fde6b177d = $(`<div id="html_15702833eb88e3cab342be4fde6b177d" style="width: 100.0%; height: 100.0%;">- Cabaka - 1050263</div>`)[0];
+                popup_274c0ea0b51c597202018387c4dcfc52.setContent(html_15702833eb88e3cab342be4fde6b177d);
+            
+        
+
+        marker_2e3dcc7634fc0595793ef31d061bc3d0.bindPopup(popup_274c0ea0b51c597202018387c4dcfc52)
+        ;
+
+        
+    
+    
+            var marker_aebcdb1d0599f1987aec0656feaada22 = L.marker(
+                [7.927243, 36.149367],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9f5576d9025f9da2648fd17037d76bec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_878f4aa3dd638f89dbbf491f6a9a1d13 = $(`<div id="html_878f4aa3dd638f89dbbf491f6a9a1d13" style="width: 100.0%; height: 100.0%;">Ethiopia - Sisimo - 1039546</div>`)[0];
+                popup_9f5576d9025f9da2648fd17037d76bec.setContent(html_878f4aa3dd638f89dbbf491f6a9a1d13);
+            
+        
+
+        marker_aebcdb1d0599f1987aec0656feaada22.bindPopup(popup_9f5576d9025f9da2648fd17037d76bec)
+        ;
+
+        
+    
+    
+            var marker_6a23a74d3d091b3b039d82d06876d933 = L.marker(
+                [7.87857, 36.087689],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4f26e613509d80094289fb9d586757e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77fd5632d1261777e6147803e8342658 = $(`<div id="html_77fd5632d1261777e6147803e8342658" style="width: 100.0%; height: 100.0%;">Ethiopia - Sagito - 1039544</div>`)[0];
+                popup_4f26e613509d80094289fb9d586757e1.setContent(html_77fd5632d1261777e6147803e8342658);
+            
+        
+
+        marker_6a23a74d3d091b3b039d82d06876d933.bindPopup(popup_4f26e613509d80094289fb9d586757e1)
+        ;
+
+        
+    
+    
+            var marker_93542c5de67d6a35571efbd821323463 = L.marker(
+                [7.857149, 36.15128],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_ec94e5b5337f998af90e5d1498d6fd60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199a05147c8659e9e0f46efdf01ce6b3 = $(`<div id="html_199a05147c8659e9e0f46efdf01ce6b3" style="width: 100.0%; height: 100.0%;">Ethiopia - Kotito - 1039542</div>`)[0];
+                popup_ec94e5b5337f998af90e5d1498d6fd60.setContent(html_199a05147c8659e9e0f46efdf01ce6b3);
+            
+        
+
+        marker_93542c5de67d6a35571efbd821323463.bindPopup(popup_ec94e5b5337f998af90e5d1498d6fd60)
+        ;
+
+        
+    
+    
+            var marker_857af3061d7047f79ff7d2ccf69a1b0f = L.marker(
+                [7.824921, 35.942297],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c142a534ce7407269ba5d61238b462ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5671b4a6af2107f92e1c7caee0482a96 = $(`<div id="html_5671b4a6af2107f92e1c7caee0482a96" style="width: 100.0%; height: 100.0%;">Ethiopia - Kuba - 1039540</div>`)[0];
+                popup_c142a534ce7407269ba5d61238b462ff.setContent(html_5671b4a6af2107f92e1c7caee0482a96);
+            
+        
+
+        marker_857af3061d7047f79ff7d2ccf69a1b0f.bindPopup(popup_c142a534ce7407269ba5d61238b462ff)
+        ;
+
+        
+    
+    
+            var marker_1ba4a55518169e9cc83c402db7e5201a = L.marker(
+                [7.884469, 36.005979],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1d88854f70f0a629ddb9dcaa4a6e46d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_facab1561b0c7b1eee0f6408b52377c4 = $(`<div id="html_facab1561b0c7b1eee0f6408b52377c4" style="width: 100.0%; height: 100.0%;">Ethiopia - Dogaja - 1039539</div>`)[0];
+                popup_1d88854f70f0a629ddb9dcaa4a6e46d5.setContent(html_facab1561b0c7b1eee0f6408b52377c4);
+            
+        
+
+        marker_1ba4a55518169e9cc83c402db7e5201a.bindPopup(popup_1d88854f70f0a629ddb9dcaa4a6e46d5)
+        ;
+
+        
+    
+    
+            var marker_5b8a95001fa06a2a92f722158dd01cd8 = L.marker(
+                [7.857008, 36.038445],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f90e52f721754f97247b6ef221b17bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d79fa3f3e51df30affbe07615dfdbaf2 = $(`<div id="html_d79fa3f3e51df30affbe07615dfdbaf2" style="width: 100.0%; height: 100.0%;">Ethiopia - Yamito - 1039538</div>`)[0];
+                popup_f90e52f721754f97247b6ef221b17bf5.setContent(html_d79fa3f3e51df30affbe07615dfdbaf2);
+            
+        
+
+        marker_5b8a95001fa06a2a92f722158dd01cd8.bindPopup(popup_f90e52f721754f97247b6ef221b17bf5)
+        ;
+
+        
+    
+    
+            var marker_d6201b8ac38dbcfb3696a4562b3845a3 = L.marker(
+                [7.903356, 36.009737],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_44be2313b59863b57355f46157f99088 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a46acd6f66083f7863522d009d82d8d7 = $(`<div id="html_a46acd6f66083f7863522d009d82d8d7" style="width: 100.0%; height: 100.0%;">Ethiopia - Ulmaye - 1039451</div>`)[0];
+                popup_44be2313b59863b57355f46157f99088.setContent(html_a46acd6f66083f7863522d009d82d8d7);
+            
+        
+
+        marker_d6201b8ac38dbcfb3696a4562b3845a3.bindPopup(popup_44be2313b59863b57355f46157f99088)
+        ;
+
+        
+    
+    
+            var marker_3d99d0f61d3dd3e659da7fd3da1103b8 = L.marker(
+                [7.906986, 36.041402],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1b215478fc9abddd8cddda9a5f19ee48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_925448aad899a667473853e92009c8a0 = $(`<div id="html_925448aad899a667473853e92009c8a0" style="width: 100.0%; height: 100.0%;">Ethiopia - Birbo - 1039446</div>`)[0];
+                popup_1b215478fc9abddd8cddda9a5f19ee48.setContent(html_925448aad899a667473853e92009c8a0);
+            
+        
+
+        marker_3d99d0f61d3dd3e659da7fd3da1103b8.bindPopup(popup_1b215478fc9abddd8cddda9a5f19ee48)
+        ;
+
+        
+    
+    
+            var marker_dbc45a2696044cfcf3cbab270d8c3069 = L.marker(
+                [7.927423, 36.070784],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4916dc6cecc7f2f804b57d52bd11eefc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95f03aade27887de3b8bad6425fe8e0a = $(`<div id="html_95f03aade27887de3b8bad6425fe8e0a" style="width: 100.0%; height: 100.0%;">Ethiopia - Qoqomo - 1039445</div>`)[0];
+                popup_4916dc6cecc7f2f804b57d52bd11eefc.setContent(html_95f03aade27887de3b8bad6425fe8e0a);
+            
+        
+
+        marker_dbc45a2696044cfcf3cbab270d8c3069.bindPopup(popup_4916dc6cecc7f2f804b57d52bd11eefc)
+        ;
+
+        
+    
+    
+            var marker_24a4fdfcd6c93988a395bc912b17cc73 = L.marker(
+                [7.950219, 36.078492],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_047f94cad93ce94597cd588cddd7bcd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b8e6517dcf726362bfecf0da9239f6c = $(`<div id="html_9b8e6517dcf726362bfecf0da9239f6c" style="width: 100.0%; height: 100.0%;">Ethiopia - Gojo - 1039437</div>`)[0];
+                popup_047f94cad93ce94597cd588cddd7bcd3.setContent(html_9b8e6517dcf726362bfecf0da9239f6c);
+            
+        
+
+        marker_24a4fdfcd6c93988a395bc912b17cc73.bindPopup(popup_047f94cad93ce94597cd588cddd7bcd3)
+        ;
+
+        
+    
+    
+            var marker_f8b2aa7e4fd00bc519a6e8b5413d5c18 = L.marker(
+                [6.547823, 37.670539],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_477316d920da6b1bb36d635569c2c25c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3473485e5e24aa51170a884004acfaa9 = $(`<div id="html_3473485e5e24aa51170a884004acfaa9" style="width: 100.0%; height: 100.0%;">- Mesa Market village - 1049626</div>`)[0];
+                popup_477316d920da6b1bb36d635569c2c25c.setContent(html_3473485e5e24aa51170a884004acfaa9);
+            
+        
+
+        marker_f8b2aa7e4fd00bc519a6e8b5413d5c18.bindPopup(popup_477316d920da6b1bb36d635569c2c25c)
+        ;
+
+        
+    
+    
+            var marker_976b11015ad31a253dbcb2f94959dc19 = L.marker(
+                [6.481632, 37.581724],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1b706680a0973117c0fb83ea4b71d508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8088260741d51b0169edd9dfbaa8077f = $(`<div id="html_8088260741d51b0169edd9dfbaa8077f" style="width: 100.0%; height: 100.0%;">- Denba Kelo - 1049625</div>`)[0];
+                popup_1b706680a0973117c0fb83ea4b71d508.setContent(html_8088260741d51b0169edd9dfbaa8077f);
+            
+        
+
+        marker_976b11015ad31a253dbcb2f94959dc19.bindPopup(popup_1b706680a0973117c0fb83ea4b71d508)
+        ;
+
+        
+    
+    
+            var marker_62a073d755e5627995a5fcfa201b6a92 = L.marker(
+                [6.482718, 37.559479],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9d2596e341574103ad0bb4e7fe2e069f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_948ba71b51bf5db07aa55ca500e5b330 = $(`<div id="html_948ba71b51bf5db07aa55ca500e5b330" style="width: 100.0%; height: 100.0%;">- Wacha 2 - 1049623</div>`)[0];
+                popup_9d2596e341574103ad0bb4e7fe2e069f.setContent(html_948ba71b51bf5db07aa55ca500e5b330);
+            
+        
+
+        marker_62a073d755e5627995a5fcfa201b6a92.bindPopup(popup_9d2596e341574103ad0bb4e7fe2e069f)
+        ;
+
+        
+    
+    
+            var marker_67459810425df6824b2d387e7f7e29a8 = L.marker(
+                [6.481424, 37.55879],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_106929ba7680f56e9177aedb79678b0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dac3582a892abc57cb8dc8d87d600cc8 = $(`<div id="html_dac3582a892abc57cb8dc8d87d600cc8" style="width: 100.0%; height: 100.0%;">- Wacha - 1049622</div>`)[0];
+                popup_106929ba7680f56e9177aedb79678b0a.setContent(html_dac3582a892abc57cb8dc8d87d600cc8);
+            
+        
+
+        marker_67459810425df6824b2d387e7f7e29a8.bindPopup(popup_106929ba7680f56e9177aedb79678b0a)
+        ;
+
+        
+    
+    
+            var marker_a1b90e462291e67c5ba9005cd1576b1f = L.marker(
+                [6.476945, 37.559905],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5c02fe97a80ddaf654e36aa6b5de18ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86d3bea7bfc2adbd2dbd7e3f5ccf1f70 = $(`<div id="html_86d3bea7bfc2adbd2dbd7e3f5ccf1f70" style="width: 100.0%; height: 100.0%;">- Boriqo - 1049621</div>`)[0];
+                popup_5c02fe97a80ddaf654e36aa6b5de18ed.setContent(html_86d3bea7bfc2adbd2dbd7e3f5ccf1f70);
+            
+        
+
+        marker_a1b90e462291e67c5ba9005cd1576b1f.bindPopup(popup_5c02fe97a80ddaf654e36aa6b5de18ed)
+        ;
+
+        
+    
+    
+            var marker_026ebb0b2bfbd423089e2483857ca33c = L.marker(
+                [6.484908, 37.639973],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a468a3614fd76dae7ea879711ddc9d80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c2821c1f26fd38886f8d9daeee70975 = $(`<div id="html_0c2821c1f26fd38886f8d9daeee70975" style="width: 100.0%; height: 100.0%;">- Subo - 1049610</div>`)[0];
+                popup_a468a3614fd76dae7ea879711ddc9d80.setContent(html_0c2821c1f26fd38886f8d9daeee70975);
+            
+        
+
+        marker_026ebb0b2bfbd423089e2483857ca33c.bindPopup(popup_a468a3614fd76dae7ea879711ddc9d80)
+        ;
+
+        
+    
+    
+            var marker_ed32c83a7b038663d07756c70dba6a81 = L.marker(
+                [6.520869, 37.650636],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_36a0865f158b5665c7a1e689f251031b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e842185f2b064514b646be2dbcd81996 = $(`<div id="html_e842185f2b064514b646be2dbcd81996" style="width: 100.0%; height: 100.0%;">- Qerqe - 1049609</div>`)[0];
+                popup_36a0865f158b5665c7a1e689f251031b.setContent(html_e842185f2b064514b646be2dbcd81996);
+            
+        
+
+        marker_ed32c83a7b038663d07756c70dba6a81.bindPopup(popup_36a0865f158b5665c7a1e689f251031b)
+        ;
+
+        
+    
+    
+            var marker_e8e58ca7096ee2939112e58f496f92b2 = L.marker(
+                [6.519368, 37.650497],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_db847768ee6c8bb7467ed3151107c3ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d489f83779c76ccc1cc02211daecf04 = $(`<div id="html_7d489f83779c76ccc1cc02211daecf04" style="width: 100.0%; height: 100.0%;">- Qelataya - 1049608</div>`)[0];
+                popup_db847768ee6c8bb7467ed3151107c3ee.setContent(html_7d489f83779c76ccc1cc02211daecf04);
+            
+        
+
+        marker_e8e58ca7096ee2939112e58f496f92b2.bindPopup(popup_db847768ee6c8bb7467ed3151107c3ee)
+        ;
+
+        
+    
+    
+            var marker_6b36a01537441feffcb4156020fba25f = L.marker(
+                [6.502212, 37.644974],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_313e4753127bffbbfe40dd7469ae5830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89f555bd13d976c0761556645f2c6f48 = $(`<div id="html_89f555bd13d976c0761556645f2c6f48" style="width: 100.0%; height: 100.0%;">- Elela - 1049607</div>`)[0];
+                popup_313e4753127bffbbfe40dd7469ae5830.setContent(html_89f555bd13d976c0761556645f2c6f48);
+            
+        
+
+        marker_6b36a01537441feffcb4156020fba25f.bindPopup(popup_313e4753127bffbbfe40dd7469ae5830)
+        ;
+
+        
+    
+    
+            var marker_b1dfc290ba1c7530b49f366faa55ea9d = L.marker(
+                [6.505614, 37.645231],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b05026792e0d6c7bf970f26ba5fd8d7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50dbbabb8253f8706c75d8d47825c6af = $(`<div id="html_50dbbabb8253f8706c75d8d47825c6af" style="width: 100.0%; height: 100.0%;">- Elela 01 - 1049606</div>`)[0];
+                popup_b05026792e0d6c7bf970f26ba5fd8d7a.setContent(html_50dbbabb8253f8706c75d8d47825c6af);
+            
+        
+
+        marker_b1dfc290ba1c7530b49f366faa55ea9d.bindPopup(popup_b05026792e0d6c7bf970f26ba5fd8d7a)
+        ;
+
+        
+    
+    
+            var marker_e4f63e87224a91daf2d2816914d9e80d = L.marker(
+                [6.412293, 37.603863],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b79681c2dadf29fd920d54bf4a3747ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bceff775720d3fbce3faf3ffd66271fe = $(`<div id="html_bceff775720d3fbce3faf3ffd66271fe" style="width: 100.0%; height: 100.0%;">- Koyiso 1 - 1049604</div>`)[0];
+                popup_b79681c2dadf29fd920d54bf4a3747ae.setContent(html_bceff775720d3fbce3faf3ffd66271fe);
+            
+        
+
+        marker_e4f63e87224a91daf2d2816914d9e80d.bindPopup(popup_b79681c2dadf29fd920d54bf4a3747ae)
+        ;
+
+        
+    
+    
+            var marker_64c99fbb90a6ca18ecd978259fe2513a = L.marker(
+                [6.412849, 37.602115],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f81fe2552874a8f300ec263fa1501e42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61bc488af502a57172081e447eb7ad8d = $(`<div id="html_61bc488af502a57172081e447eb7ad8d" style="width: 100.0%; height: 100.0%;">- Koyiso - 1049603</div>`)[0];
+                popup_f81fe2552874a8f300ec263fa1501e42.setContent(html_61bc488af502a57172081e447eb7ad8d);
+            
+        
+
+        marker_64c99fbb90a6ca18ecd978259fe2513a.bindPopup(popup_f81fe2552874a8f300ec263fa1501e42)
+        ;
+
+        
+    
+    
+            var marker_b40efc28aeb948fd56c49b73165efc18 = L.marker(
+                [6.320509, 37.513921],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6ce80777fb5c4fbc4bc889d52a2d80e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72169a48600bdb23c3611f46a030221e = $(`<div id="html_72169a48600bdb23c3611f46a030221e" style="width: 100.0%; height: 100.0%;">- Zuriko - 1049572</div>`)[0];
+                popup_6ce80777fb5c4fbc4bc889d52a2d80e9.setContent(html_72169a48600bdb23c3611f46a030221e);
+            
+        
+
+        marker_b40efc28aeb948fd56c49b73165efc18.bindPopup(popup_6ce80777fb5c4fbc4bc889d52a2d80e9)
+        ;
+
+        
+    
+    
+            var marker_b5be58795146dc2d02c9c0460a3b6f64 = L.marker(
+                [6.322828, 37.51057],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f10f3ec8f0993be660ff47412f4a86f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5cbdbd8692632eeff2dd1a9ebe79877 = $(`<div id="html_f5cbdbd8692632eeff2dd1a9ebe79877" style="width: 100.0%; height: 100.0%;">- Giyale - 1049571</div>`)[0];
+                popup_f10f3ec8f0993be660ff47412f4a86f4.setContent(html_f5cbdbd8692632eeff2dd1a9ebe79877);
+            
+        
+
+        marker_b5be58795146dc2d02c9c0460a3b6f64.bindPopup(popup_f10f3ec8f0993be660ff47412f4a86f4)
+        ;
+
+        
+    
+    
+            var marker_8f2beec3cdd18e35e68c72148fcc091b = L.marker(
+                [6.314518, 37.47959],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_5118a4a7ea93c79f9795a07cfc128ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b14a9c18819ce390569a9cb64dccec8c = $(`<div id="html_b14a9c18819ce390569a9cb64dccec8c" style="width: 100.0%; height: 100.0%;">- Shupate - 1049570</div>`)[0];
+                popup_5118a4a7ea93c79f9795a07cfc128ff8.setContent(html_b14a9c18819ce390569a9cb64dccec8c);
+            
+        
+
+        marker_8f2beec3cdd18e35e68c72148fcc091b.bindPopup(popup_5118a4a7ea93c79f9795a07cfc128ff8)
+        ;
+
+        
+    
+    
+            var marker_b94049ca2f2e9f1cacd9d6e08f4e9562 = L.marker(
+                [6.323633, 37.508752],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a0a675b95990369527b26b27305f2f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_850075c86b5c1ccd9ad753baee392b11 = $(`<div id="html_850075c86b5c1ccd9ad753baee392b11" style="width: 100.0%; height: 100.0%;">- Giyale 01 - 1049568</div>`)[0];
+                popup_a0a675b95990369527b26b27305f2f01.setContent(html_850075c86b5c1ccd9ad753baee392b11);
+            
+        
+
+        marker_b94049ca2f2e9f1cacd9d6e08f4e9562.bindPopup(popup_a0a675b95990369527b26b27305f2f01)
+        ;
+
+        
+    
+    
+            var marker_bed6d27872dd64d84ad1a0c48070fb58 = L.marker(
+                [6.204522, 37.442459],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_03103c66c161ed9bac0b3600e14428f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9164f72c564ac7e2f9f1bd82ca2ea399 = $(`<div id="html_9164f72c564ac7e2f9f1bd82ca2ea399" style="width: 100.0%; height: 100.0%;">- Keloso - 1049558</div>`)[0];
+                popup_03103c66c161ed9bac0b3600e14428f2.setContent(html_9164f72c564ac7e2f9f1bd82ca2ea399);
+            
+        
+
+        marker_bed6d27872dd64d84ad1a0c48070fb58.bindPopup(popup_03103c66c161ed9bac0b3600e14428f2)
+        ;
+
+        
+    
+    
+            var marker_98512085f9f3de9998950f37d4371b8d = L.marker(
+                [6.205822, 37.427975],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e5e950eca3171f548480060911b1220c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2381880fe1c515f3e65c6f34539005d8 = $(`<div id="html_2381880fe1c515f3e65c6f34539005d8" style="width: 100.0%; height: 100.0%;">- Dola - 1049557</div>`)[0];
+                popup_e5e950eca3171f548480060911b1220c.setContent(html_2381880fe1c515f3e65c6f34539005d8);
+            
+        
+
+        marker_98512085f9f3de9998950f37d4371b8d.bindPopup(popup_e5e950eca3171f548480060911b1220c)
+        ;
+
+        
+    
+    
+            var marker_86324be2306e804d5290d8b734d07525 = L.marker(
+                [6.311004, 37.47716],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_848d7f5fdf8ea6ec6298cdbfbfa5a81f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6656bd12326b2f7148b9e3f3c71156e7 = $(`<div id="html_6656bd12326b2f7148b9e3f3c71156e7" style="width: 100.0%; height: 100.0%;">- Maira - 1049556</div>`)[0];
+                popup_848d7f5fdf8ea6ec6298cdbfbfa5a81f.setContent(html_6656bd12326b2f7148b9e3f3c71156e7);
+            
+        
+
+        marker_86324be2306e804d5290d8b734d07525.bindPopup(popup_848d7f5fdf8ea6ec6298cdbfbfa5a81f)
+        ;
+
+        
+    
+    
+            var marker_d2e26c8987815ff93a8dcbf3b60c93b6 = L.marker(
+                [6.241223, 37.442249],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_12c4c7937c11fd41cb3cae197f8a37cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_606282762fef38b04445516eaa017857 = $(`<div id="html_606282762fef38b04445516eaa017857" style="width: 100.0%; height: 100.0%;">- Giyassa - 1049555</div>`)[0];
+                popup_12c4c7937c11fd41cb3cae197f8a37cf.setContent(html_606282762fef38b04445516eaa017857);
+            
+        
+
+        marker_d2e26c8987815ff93a8dcbf3b60c93b6.bindPopup(popup_12c4c7937c11fd41cb3cae197f8a37cf)
+        ;
+
+        
+    
+    
+            var marker_8ffddb9c2872efa88a5f804e7500bb4b = L.marker(
+                [6.23984, 37.443329],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_22e938d710187d25497f9663a2d01964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_606d27af76a6fb16d3953087e59cffe5 = $(`<div id="html_606d27af76a6fb16d3953087e59cffe5" style="width: 100.0%; height: 100.0%;">- Tsilelo - 1049554</div>`)[0];
+                popup_22e938d710187d25497f9663a2d01964.setContent(html_606d27af76a6fb16d3953087e59cffe5);
+            
+        
+
+        marker_8ffddb9c2872efa88a5f804e7500bb4b.bindPopup(popup_22e938d710187d25497f9663a2d01964)
+        ;
+
+        
+    
+    
+            var marker_256a431bc4c4eee79a97723dc84053b3 = L.marker(
+                [6.322082, 37.499664],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_3c9e190808ab27ee674bacac6a346608 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f12f3eb6c43bb37a84ecf697ac11e811 = $(`<div id="html_f12f3eb6c43bb37a84ecf697ac11e811" style="width: 100.0%; height: 100.0%;">- Hiramo - 1049549</div>`)[0];
+                popup_3c9e190808ab27ee674bacac6a346608.setContent(html_f12f3eb6c43bb37a84ecf697ac11e811);
+            
+        
+
+        marker_256a431bc4c4eee79a97723dc84053b3.bindPopup(popup_3c9e190808ab27ee674bacac6a346608)
+        ;
+
+        
+    
+    
+            var marker_5dd93dab7ac99517260753f07f2fc7e3 = L.marker(
+                [6.32309, 37.48509],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_007e8183c394246d0204cccc13f69499 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e21781600ea1f135c8e757327b8a22d = $(`<div id="html_9e21781600ea1f135c8e757327b8a22d" style="width: 100.0%; height: 100.0%;">- Adinche - 1049547</div>`)[0];
+                popup_007e8183c394246d0204cccc13f69499.setContent(html_9e21781600ea1f135c8e757327b8a22d);
+            
+        
+
+        marker_5dd93dab7ac99517260753f07f2fc7e3.bindPopup(popup_007e8183c394246d0204cccc13f69499)
+        ;
+
+        
+    
+    
+            var marker_a9deec05347dbb1582ec9c42478fc124 = L.marker(
+                [6.322898, 37.481792],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b183797992f1bef619c30407b7abcc4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c73e2954eaf0fed4ce0bbb5e91274aa = $(`<div id="html_2c73e2954eaf0fed4ce0bbb5e91274aa" style="width: 100.0%; height: 100.0%;">- Gero_Gendela - 1049546</div>`)[0];
+                popup_b183797992f1bef619c30407b7abcc4d.setContent(html_2c73e2954eaf0fed4ce0bbb5e91274aa);
+            
+        
+
+        marker_a9deec05347dbb1582ec9c42478fc124.bindPopup(popup_b183797992f1bef619c30407b7abcc4d)
+        ;
+
+        
+    
+    
+            var marker_dcfb7c59395931372372441848804a79 = L.marker(
+                [6.320981, 37.483],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a0bf2498104abf291544e869b34da37d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e793c832804249890bb77fb9657f89 = $(`<div id="html_26e793c832804249890bb77fb9657f89" style="width: 100.0%; height: 100.0%;">- Gero - 1049545</div>`)[0];
+                popup_a0bf2498104abf291544e869b34da37d.setContent(html_26e793c832804249890bb77fb9657f89);
+            
+        
+
+        marker_dcfb7c59395931372372441848804a79.bindPopup(popup_a0bf2498104abf291544e869b34da37d)
+        ;
+
+        
+    
+    
+            var marker_354e6e0144d2715a8b1bd2799bbc61d8 = L.marker(
+                [6.367992, 37.468325],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c025cf27cd231433cd37231361d3c92a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b6af98ad0f5e03ee2ad60ea60defe1a = $(`<div id="html_4b6af98ad0f5e03ee2ad60ea60defe1a" style="width: 100.0%; height: 100.0%;">- Elese-Deme 3 - 1049523</div>`)[0];
+                popup_c025cf27cd231433cd37231361d3c92a.setContent(html_4b6af98ad0f5e03ee2ad60ea60defe1a);
+            
+        
+
+        marker_354e6e0144d2715a8b1bd2799bbc61d8.bindPopup(popup_c025cf27cd231433cd37231361d3c92a)
+        ;
+
+        
+    
+    
+            var marker_ad0932f9ddfca212c1dcc86ef1776d3c = L.marker(
+                [6.361071, 37.480076],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8faf90a3b5c1172a92fb0db829dd3008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84be0e1eac5cbb9f678164de2921dfe6 = $(`<div id="html_84be0e1eac5cbb9f678164de2921dfe6" style="width: 100.0%; height: 100.0%;">- Elese - 1049522</div>`)[0];
+                popup_8faf90a3b5c1172a92fb0db829dd3008.setContent(html_84be0e1eac5cbb9f678164de2921dfe6);
+            
+        
+
+        marker_ad0932f9ddfca212c1dcc86ef1776d3c.bindPopup(popup_8faf90a3b5c1172a92fb0db829dd3008)
+        ;
+
+        
+    
+    
+            var marker_92c25f5f58d2e9139a863b64b69e0812 = L.marker(
+                [6.357456, 37.472278],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1b1e84358ee15cbdf4f24b2337c48297 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc6c1eb9eb2f8925bccab77d7a42086 = $(`<div id="html_5dc6c1eb9eb2f8925bccab77d7a42086" style="width: 100.0%; height: 100.0%;">- Tale - 1049521</div>`)[0];
+                popup_1b1e84358ee15cbdf4f24b2337c48297.setContent(html_5dc6c1eb9eb2f8925bccab77d7a42086);
+            
+        
+
+        marker_92c25f5f58d2e9139a863b64b69e0812.bindPopup(popup_1b1e84358ee15cbdf4f24b2337c48297)
+        ;
+
+        
+    
+    
+            var marker_e7e7b8647843efe27cc41eae5f51865f = L.marker(
+                [6.367205, 37.469704],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d297cda963ef415bc41df106f103f12d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31fe523b6b9e8627003e2570df2be069 = $(`<div id="html_31fe523b6b9e8627003e2570df2be069" style="width: 100.0%; height: 100.0%;">- Elese-Kentso Meshagera - 1049520</div>`)[0];
+                popup_d297cda963ef415bc41df106f103f12d.setContent(html_31fe523b6b9e8627003e2570df2be069);
+            
+        
+
+        marker_e7e7b8647843efe27cc41eae5f51865f.bindPopup(popup_d297cda963ef415bc41df106f103f12d)
+        ;
+
+        
+    
+    
+            var marker_c198bb5494af0fa0c30778071b9b72c6 = L.marker(
+                [6.238999, 37.56567],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d3ac1eb6a527994a679d8e257f805a83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe51ffacb5f3777e802345cfcece2b4b = $(`<div id="html_fe51ffacb5f3777e802345cfcece2b4b" style="width: 100.0%; height: 100.0%;">- Boa - 1049508</div>`)[0];
+                popup_d3ac1eb6a527994a679d8e257f805a83.setContent(html_fe51ffacb5f3777e802345cfcece2b4b);
+            
+        
+
+        marker_c198bb5494af0fa0c30778071b9b72c6.bindPopup(popup_d3ac1eb6a527994a679d8e257f805a83)
+        ;
+
+        
+    
+    
+            var marker_cff36f49948d806a68a31660e01251d7 = L.marker(
+                [6.272652, 37.553152],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0c086dbb2c2bdef70e88c7df4d6efff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e14b9632f399821127418abe2bf03159 = $(`<div id="html_e14b9632f399821127418abe2bf03159" style="width: 100.0%; height: 100.0%;">- Zala Kare - 1049507</div>`)[0];
+                popup_0c086dbb2c2bdef70e88c7df4d6efff1.setContent(html_e14b9632f399821127418abe2bf03159);
+            
+        
+
+        marker_cff36f49948d806a68a31660e01251d7.bindPopup(popup_0c086dbb2c2bdef70e88c7df4d6efff1)
+        ;
+
+        
+    
+    
+            var marker_c7e3d4e83e954cdf20648c14c3642ce7 = L.marker(
+                [6.262588, 37.5622],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9e751ac8c508b34b514d608ee43010bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae76c31d6bede57d8234def1a3d6fdb4 = $(`<div id="html_ae76c31d6bede57d8234def1a3d6fdb4" style="width: 100.0%; height: 100.0%;">- Gara Gitora 2 - 1049506</div>`)[0];
+                popup_9e751ac8c508b34b514d608ee43010bc.setContent(html_ae76c31d6bede57d8234def1a3d6fdb4);
+            
+        
+
+        marker_c7e3d4e83e954cdf20648c14c3642ce7.bindPopup(popup_9e751ac8c508b34b514d608ee43010bc)
+        ;
+
+        
+    
+    
+            var marker_7784cdb94978714bfae0147db1e56c2a = L.marker(
+                [6.261211, 37.561917],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_79f2beded68f3aee8ef0346ed07f6f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4a854866d1e9ab155a8f3272a87606c = $(`<div id="html_c4a854866d1e9ab155a8f3272a87606c" style="width: 100.0%; height: 100.0%;">- Geressa Gitora - 1049505</div>`)[0];
+                popup_79f2beded68f3aee8ef0346ed07f6f26.setContent(html_c4a854866d1e9ab155a8f3272a87606c);
+            
+        
+
+        marker_7784cdb94978714bfae0147db1e56c2a.bindPopup(popup_79f2beded68f3aee8ef0346ed07f6f26)
+        ;
+
+        
+    
+    
+            var marker_2dd95e1b6de6725a6a919d3f3dbb4b85 = L.marker(
+                [6.249709, 37.536187],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_99fea0f8a244291e676113641e9a14fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31779e440ccff2ef0a4091aa65df13cf = $(`<div id="html_31779e440ccff2ef0a4091aa65df13cf" style="width: 100.0%; height: 100.0%;">- Fintha - 1049504</div>`)[0];
+                popup_99fea0f8a244291e676113641e9a14fb.setContent(html_31779e440ccff2ef0a4091aa65df13cf);
+            
+        
+
+        marker_2dd95e1b6de6725a6a919d3f3dbb4b85.bindPopup(popup_99fea0f8a244291e676113641e9a14fb)
+        ;
+
+        
+    
+    
+            var marker_6f8fd3128cabec3edae326542941f414 = L.marker(
+                [6.198674, 37.46705],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_73ed0b3d732326989b7f249806d536dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_819cfffabbc35c1b303a44517e48313f = $(`<div id="html_819cfffabbc35c1b303a44517e48313f" style="width: 100.0%; height: 100.0%;">- Zela - 1049501</div>`)[0];
+                popup_73ed0b3d732326989b7f249806d536dd.setContent(html_819cfffabbc35c1b303a44517e48313f);
+            
+        
+
+        marker_6f8fd3128cabec3edae326542941f414.bindPopup(popup_73ed0b3d732326989b7f249806d536dd)
+        ;
+
+        
+    
+    
+            var marker_6378c7118b4dc45572cd9512354d8e15 = L.marker(
+                [6.194073, 37.457002],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9b7909a8091290390c41b56e35849caa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c9e66791ebbf4128ce30e7d2d1eade = $(`<div id="html_06c9e66791ebbf4128ce30e7d2d1eade" style="width: 100.0%; height: 100.0%;">- Dogile - 1049500</div>`)[0];
+                popup_9b7909a8091290390c41b56e35849caa.setContent(html_06c9e66791ebbf4128ce30e7d2d1eade);
+            
+        
+
+        marker_6378c7118b4dc45572cd9512354d8e15.bindPopup(popup_9b7909a8091290390c41b56e35849caa)
+        ;
+
+        
+    
+    
+            var marker_8b14f28bc15b419420f21c7b20efb26e = L.marker(
+                [6.276039, 37.648557],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c999ccfe1dfa03ee58e8ee3ed9c37b65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757037f4b264b84d66ccdd0791884462 = $(`<div id="html_757037f4b264b84d66ccdd0791884462" style="width: 100.0%; height: 100.0%;">Ethiopia - Wallo - 1049491</div>`)[0];
+                popup_c999ccfe1dfa03ee58e8ee3ed9c37b65.setContent(html_757037f4b264b84d66ccdd0791884462);
+            
+        
+
+        marker_8b14f28bc15b419420f21c7b20efb26e.bindPopup(popup_c999ccfe1dfa03ee58e8ee3ed9c37b65)
+        ;
+
+        
+    
+    
+            var marker_37695c2bee792d9958d05e22276dc14e = L.marker(
+                [6.274838, 37.657961],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9320ec4a119d868b789d306a209d90e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2509f5d379ed61839986a370e2f2e4c4 = $(`<div id="html_2509f5d379ed61839986a370e2f2e4c4" style="width: 100.0%; height: 100.0%;">Ethiopia - Gema Gara - 1049488</div>`)[0];
+                popup_9320ec4a119d868b789d306a209d90e5.setContent(html_2509f5d379ed61839986a370e2f2e4c4);
+            
+        
+
+        marker_37695c2bee792d9958d05e22276dc14e.bindPopup(popup_9320ec4a119d868b789d306a209d90e5)
+        ;
+
+        
+    
+    
+            var marker_803cf5a553379e696d279190466dd8ed = L.marker(
+                [6.227843, 37.591721],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e8f6941a2fb4ae9959dfea9b90a4a42e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c60fa569078fd143728d4c20f4064bd = $(`<div id="html_3c60fa569078fd143728d4c20f4064bd" style="width: 100.0%; height: 100.0%;">Ethiopia - Karba - 1049487</div>`)[0];
+                popup_e8f6941a2fb4ae9959dfea9b90a4a42e.setContent(html_3c60fa569078fd143728d4c20f4064bd);
+            
+        
+
+        marker_803cf5a553379e696d279190466dd8ed.bindPopup(popup_e8f6941a2fb4ae9959dfea9b90a4a42e)
+        ;
+
+        
+    
+    
+            var marker_3dc69e3a6d315f13e678c7decf41d4c3 = L.marker(
+                [6.199407, 37.564116],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_77ef3da978f493fd2fdacd1e8803bcef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f2bf9435582a2e8548d30ea2278af5a = $(`<div id="html_3f2bf9435582a2e8548d30ea2278af5a" style="width: 100.0%; height: 100.0%;">Ethiopia - Matso Gara - 1049486</div>`)[0];
+                popup_77ef3da978f493fd2fdacd1e8803bcef.setContent(html_3f2bf9435582a2e8548d30ea2278af5a);
+            
+        
+
+        marker_3dc69e3a6d315f13e678c7decf41d4c3.bindPopup(popup_77ef3da978f493fd2fdacd1e8803bcef)
+        ;
+
+        
+    
+    
+            var marker_3e30bd36d50405f54c70318f67713ec4 = L.marker(
+                [6.640566, 37.329421],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e91a259f177d834e46bc8261919b14e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31a0aeb93a4fceec3872b831939c2fcb = $(`<div id="html_31a0aeb93a4fceec3872b831939c2fcb" style="width: 100.0%; height: 100.0%;">Ethiopia - Lalimea - 1049485</div>`)[0];
+                popup_e91a259f177d834e46bc8261919b14e5.setContent(html_31a0aeb93a4fceec3872b831939c2fcb);
+            
+        
+
+        marker_3e30bd36d50405f54c70318f67713ec4.bindPopup(popup_e91a259f177d834e46bc8261919b14e5)
+        ;
+
+        
+    
+    
+            var marker_b1952b1ef2edd2ff35e5bc9a1f1a02f3 = L.marker(
+                [6.575423, 37.224911],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_393a564577fdfc2a74b780d5dc9f0ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6b4cf21c98c10a7c7e0cf72723bef91 = $(`<div id="html_f6b4cf21c98c10a7c7e0cf72723bef91" style="width: 100.0%; height: 100.0%;">Ethiopia - Chosho 1 - 1049484</div>`)[0];
+                popup_393a564577fdfc2a74b780d5dc9f0ea9.setContent(html_f6b4cf21c98c10a7c7e0cf72723bef91);
+            
+        
+
+        marker_b1952b1ef2edd2ff35e5bc9a1f1a02f3.bindPopup(popup_393a564577fdfc2a74b780d5dc9f0ea9)
+        ;
+
+        
+    
+    
+            var marker_b92e6a491cfbb6291c05240c06ddfa79 = L.marker(
+                [6.585868, 37.2304],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_11e1879bfe733682587e9deffdaa369a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c27c0a4bbd737c66f3cad06c8d074655 = $(`<div id="html_c27c0a4bbd737c66f3cad06c8d074655" style="width: 100.0%; height: 100.0%;">Ethiopia - Chosho - 1049483</div>`)[0];
+                popup_11e1879bfe733682587e9deffdaa369a.setContent(html_c27c0a4bbd737c66f3cad06c8d074655);
+            
+        
+
+        marker_b92e6a491cfbb6291c05240c06ddfa79.bindPopup(popup_11e1879bfe733682587e9deffdaa369a)
+        ;
+
+        
+    
+    
+            var marker_62c9e12b91ff15d578859a0fa91507df = L.marker(
+                [6.539911, 37.25285],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7d42d045bbeb0e4aa6fa97e963aae0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a499bd7852e3b99bb2167a6a561e1042 = $(`<div id="html_a499bd7852e3b99bb2167a6a561e1042" style="width: 100.0%; height: 100.0%;">Ethiopia - Cheniga - 1049482</div>`)[0];
+                popup_7d42d045bbeb0e4aa6fa97e963aae0e7.setContent(html_a499bd7852e3b99bb2167a6a561e1042);
+            
+        
+
+        marker_62c9e12b91ff15d578859a0fa91507df.bindPopup(popup_7d42d045bbeb0e4aa6fa97e963aae0e7)
+        ;
+
+        
+    
+    
+            var marker_2f6b12b0f9f7040fe221dacc67fc729f = L.marker(
+                [6.550898, 37.288386],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e48e4206d7d73f2cedc69265e5b2e51e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd681eb55ffbd8df0c1dfd3406e862d = $(`<div id="html_7cd681eb55ffbd8df0c1dfd3406e862d" style="width: 100.0%; height: 100.0%;">Ethiopia - Aba Tuba - 1049480</div>`)[0];
+                popup_e48e4206d7d73f2cedc69265e5b2e51e.setContent(html_7cd681eb55ffbd8df0c1dfd3406e862d);
+            
+        
+
+        marker_2f6b12b0f9f7040fe221dacc67fc729f.bindPopup(popup_e48e4206d7d73f2cedc69265e5b2e51e)
+        ;
+
+        
+    
+    
+            var marker_5f46f3c77c65dc06292bbf172378f7ff = L.marker(
+                [6.590993, 37.275886],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_fe3e3c2d411225f66e4485fb380decc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd672cfe2ea19adfb64b48e2aef478d0 = $(`<div id="html_dd672cfe2ea19adfb64b48e2aef478d0" style="width: 100.0%; height: 100.0%;">Ethiopia - Menaria - 1049479</div>`)[0];
+                popup_fe3e3c2d411225f66e4485fb380decc7.setContent(html_dd672cfe2ea19adfb64b48e2aef478d0);
+            
+        
+
+        marker_5f46f3c77c65dc06292bbf172378f7ff.bindPopup(popup_fe3e3c2d411225f66e4485fb380decc7)
+        ;
+
+        
+    
+    
+            var marker_af45aa8a28a8daf7248df6916b185818 = L.marker(
+                [6.606393, 37.256389],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f599b4c4143f90838499a795fa66130c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_143b443513cd21d6dfe741d0f127dd15 = $(`<div id="html_143b443513cd21d6dfe741d0f127dd15" style="width: 100.0%; height: 100.0%;">Ethiopia - Kaske Genize-Bubina - 1049478</div>`)[0];
+                popup_f599b4c4143f90838499a795fa66130c.setContent(html_143b443513cd21d6dfe741d0f127dd15);
+            
+        
+
+        marker_af45aa8a28a8daf7248df6916b185818.bindPopup(popup_f599b4c4143f90838499a795fa66130c)
+        ;
+
+        
+    
+    
+            var marker_d974e1ae34aa276b5f4a8b8e8d7552a9 = L.marker(
+                [6.603715, 37.273359],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9415aa7f05610cd2463c9d39a1677811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07139a7e7cbf9951a22ce7348a8d786a = $(`<div id="html_07139a7e7cbf9951a22ce7348a8d786a" style="width: 100.0%; height: 100.0%;">Ethiopia - Dambiya - 1049477</div>`)[0];
+                popup_9415aa7f05610cd2463c9d39a1677811.setContent(html_07139a7e7cbf9951a22ce7348a8d786a);
+            
+        
+
+        marker_d974e1ae34aa276b5f4a8b8e8d7552a9.bindPopup(popup_9415aa7f05610cd2463c9d39a1677811)
+        ;
+
+        
+    
+    
+            var marker_aa9e94e4963cad218ac23ccc38b6c8d7 = L.marker(
+                [6.596942, 37.271592],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_85017366c0ada3ed9de3edaf8d14c068 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f788c8a1a4f4c7f48ebdc834debed828 = $(`<div id="html_f788c8a1a4f4c7f48ebdc834debed828" style="width: 100.0%; height: 100.0%;">- Dambiya 1 - 1049052</div>`)[0];
+                popup_85017366c0ada3ed9de3edaf8d14c068.setContent(html_f788c8a1a4f4c7f48ebdc834debed828);
+            
+        
+
+        marker_aa9e94e4963cad218ac23ccc38b6c8d7.bindPopup(popup_85017366c0ada3ed9de3edaf8d14c068)
+        ;
+
+        
+    
+    
+            var marker_9d8c1b58c274cfcd63daa8583ae5d219 = L.marker(
+                [6.598847, 37.282986],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_6eb7412b8f55ee1157f044560bb95693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_157eedc448e0a7b0fb1ee05230d1e0d9 = $(`<div id="html_157eedc448e0a7b0fb1ee05230d1e0d9" style="width: 100.0%; height: 100.0%;">Ethiopia - Toko Dambiya - 1049048</div>`)[0];
+                popup_6eb7412b8f55ee1157f044560bb95693.setContent(html_157eedc448e0a7b0fb1ee05230d1e0d9);
+            
+        
+
+        marker_9d8c1b58c274cfcd63daa8583ae5d219.bindPopup(popup_6eb7412b8f55ee1157f044560bb95693)
+        ;
+
+        
+    
+    
+            var marker_300b84e1e63a609ef6e8b1fb5bf0e2ef = L.marker(
+                [6.634233, 37.287578],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4ca1c3273e46cc513015ee2d32cd57c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35b3a2b17e1e54a0b2864a219f681b52 = $(`<div id="html_35b3a2b17e1e54a0b2864a219f681b52" style="width: 100.0%; height: 100.0%;">- Chaba Wonibe - 1049047</div>`)[0];
+                popup_4ca1c3273e46cc513015ee2d32cd57c5.setContent(html_35b3a2b17e1e54a0b2864a219f681b52);
+            
+        
+
+        marker_300b84e1e63a609ef6e8b1fb5bf0e2ef.bindPopup(popup_4ca1c3273e46cc513015ee2d32cd57c5)
+        ;
+
+        
+    
+    
+            var marker_05d667ac962a075ee3419bd5ccb297dc = L.marker(
+                [6.622232, 37.285021],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_2e9fa26f255cfbc51198a516c3c89365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6226bb42592e0fa49a9522cf7407df8a = $(`<div id="html_6226bb42592e0fa49a9522cf7407df8a" style="width: 100.0%; height: 100.0%;">Ethiopia - Woyide Gonita - 1049046</div>`)[0];
+                popup_2e9fa26f255cfbc51198a516c3c89365.setContent(html_6226bb42592e0fa49a9522cf7407df8a);
+            
+        
+
+        marker_05d667ac962a075ee3419bd5ccb297dc.bindPopup(popup_2e9fa26f255cfbc51198a516c3c89365)
+        ;
+
+        
+    
+    
+            var marker_6bfd9e8bdb1e2bd3635d92ac4a30c4d6 = L.marker(
+                [5.940728, 38.193009],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_cd72ab88a48e10844561a98c621e183d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b50b741022402e12cb4c6946fe241852 = $(`<div id="html_b50b741022402e12cb4c6946fe241852" style="width: 100.0%; height: 100.0%;">- Tinbitu - 1049750</div>`)[0];
+                popup_cd72ab88a48e10844561a98c621e183d.setContent(html_b50b741022402e12cb4c6946fe241852);
+            
+        
+
+        marker_6bfd9e8bdb1e2bd3635d92ac4a30c4d6.bindPopup(popup_cd72ab88a48e10844561a98c621e183d)
+        ;
+
+        
+    
+    
+            var marker_74e2efac789a7439549033155e2c2c5f = L.marker(
+                [5.96205, 38.200148],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b7c43c8c2e6a62f56712314d58e3fd76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52602cf80edcd99e37ba39a76b4ead03 = $(`<div id="html_52602cf80edcd99e37ba39a76b4ead03" style="width: 100.0%; height: 100.0%;">- Arere Minche - 1049747</div>`)[0];
+                popup_b7c43c8c2e6a62f56712314d58e3fd76.setContent(html_52602cf80edcd99e37ba39a76b4ead03);
+            
+        
+
+        marker_74e2efac789a7439549033155e2c2c5f.bindPopup(popup_b7c43c8c2e6a62f56712314d58e3fd76)
+        ;
+
+        
+    
+    
+            var marker_7e6d9241aee045508f96bea3e0a204c3 = L.marker(
+                [6.008119, 38.149247],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7ec41b3dd0a7825918f77583f76f166a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca02af7436299937424d5762283beecb = $(`<div id="html_ca02af7436299937424d5762283beecb" style="width: 100.0%; height: 100.0%;">- Hamusi Gebeya - 1049708</div>`)[0];
+                popup_7ec41b3dd0a7825918f77583f76f166a.setContent(html_ca02af7436299937424d5762283beecb);
+            
+        
+
+        marker_7e6d9241aee045508f96bea3e0a204c3.bindPopup(popup_7ec41b3dd0a7825918f77583f76f166a)
+        ;
+
+        
+    
+    
+            var marker_ca7bc690a45097920687cf65d57a70e1 = L.marker(
+                [6.063629, 38.141797],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_22a50a2e4555fb342119f86cf4066e26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_529a4e2225c07321fd6e23506a5e7840 = $(`<div id="html_529a4e2225c07321fd6e23506a5e7840" style="width: 100.0%; height: 100.0%;">- Lebu 01 - 1049707</div>`)[0];
+                popup_22a50a2e4555fb342119f86cf4066e26.setContent(html_529a4e2225c07321fd6e23506a5e7840);
+            
+        
+
+        marker_ca7bc690a45097920687cf65d57a70e1.bindPopup(popup_22a50a2e4555fb342119f86cf4066e26)
+        ;
+
+        
+    
+    
+            var marker_37e45c7d7b3dd656f9af7facd3a4bd94 = L.marker(
+                [6.114815, 38.158412],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_55078f3c7f6ae7e1141297377471616c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf7b98c981bc2d49dda7fe89051619b7 = $(`<div id="html_bf7b98c981bc2d49dda7fe89051619b7" style="width: 100.0%; height: 100.0%;">- Danchese - 1049704</div>`)[0];
+                popup_55078f3c7f6ae7e1141297377471616c.setContent(html_bf7b98c981bc2d49dda7fe89051619b7);
+            
+        
+
+        marker_37e45c7d7b3dd656f9af7facd3a4bd94.bindPopup(popup_55078f3c7f6ae7e1141297377471616c)
+        ;
+
+        
+    
+    
+            var marker_975a68f90fb6f52ccc6261bdf6b9cf26 = L.marker(
+                [5.999309, 38.22602],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4c5ac4a291c02f344a5150d10cf5ec1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5feee542b847b481bb55ec8d6d6e305f = $(`<div id="html_5feee542b847b481bb55ec8d6d6e305f" style="width: 100.0%; height: 100.0%;">- Hokokenso - 1049688</div>`)[0];
+                popup_4c5ac4a291c02f344a5150d10cf5ec1e.setContent(html_5feee542b847b481bb55ec8d6d6e305f);
+            
+        
+
+        marker_975a68f90fb6f52ccc6261bdf6b9cf26.bindPopup(popup_4c5ac4a291c02f344a5150d10cf5ec1e)
+        ;
+
+        
+    
+    
+            var marker_dffcb1c40570e1ecde7d51b0d05af78b = L.marker(
+                [6.004182, 38.212964],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7736f7ad6b9214c797089f177708243c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f42df55da4321fe9da245b6579aac643 = $(`<div id="html_f42df55da4321fe9da245b6579aac643" style="width: 100.0%; height: 100.0%;">- Hanijesso - 1049687</div>`)[0];
+                popup_7736f7ad6b9214c797089f177708243c.setContent(html_f42df55da4321fe9da245b6579aac643);
+            
+        
+
+        marker_dffcb1c40570e1ecde7d51b0d05af78b.bindPopup(popup_7736f7ad6b9214c797089f177708243c)
+        ;
+
+        
+    
+    
+            var marker_768fa128233971801ae067921f70050d = L.marker(
+                [6.061285, 38.20572],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_166b06dd6709567719b0ab1f3380e5fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b46bd0853afc6c2cd4fb99f9e982a29 = $(`<div id="html_8b46bd0853afc6c2cd4fb99f9e982a29" style="width: 100.0%; height: 100.0%;">- Bedesa - 1049686</div>`)[0];
+                popup_166b06dd6709567719b0ab1f3380e5fe.setContent(html_8b46bd0853afc6c2cd4fb99f9e982a29);
+            
+        
+
+        marker_768fa128233971801ae067921f70050d.bindPopup(popup_166b06dd6709567719b0ab1f3380e5fe)
+        ;
+
+        
+    
+    
+            var marker_d183e511162d15840244321409c204d1 = L.marker(
+                [6.037918, 38.197884],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f2f82e2a18bd703c9a4555dabb965d05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee9d036c35ce782b531b0f827cf57553 = $(`<div id="html_ee9d036c35ce782b531b0f827cf57553" style="width: 100.0%; height: 100.0%;">- Kembata - 1049685</div>`)[0];
+                popup_f2f82e2a18bd703c9a4555dabb965d05.setContent(html_ee9d036c35ce782b531b0f827cf57553);
+            
+        
+
+        marker_d183e511162d15840244321409c204d1.bindPopup(popup_f2f82e2a18bd703c9a4555dabb965d05)
+        ;
+
+        
+    
+    
+            var marker_09d6825f9b176e17ff1f4cc27f95efc4 = L.marker(
+                [6.353263, 38.334483],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8ad877a10abc4da6103692518bc5f514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60f4a17d303a9d68753928f1f212a2ae = $(`<div id="html_60f4a17d303a9d68753928f1f212a2ae" style="width: 100.0%; height: 100.0%;">- Awala seferi - 1049659</div>`)[0];
+                popup_8ad877a10abc4da6103692518bc5f514.setContent(html_60f4a17d303a9d68753928f1f212a2ae);
+            
+        
+
+        marker_09d6825f9b176e17ff1f4cc27f95efc4.bindPopup(popup_8ad877a10abc4da6103692518bc5f514)
+        ;
+
+        
+    
+    
+            var marker_90a5f59c6c51f221267e8b34e89a6185 = L.marker(
+                [6.360794, 38.331656],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1c3c9bb74e0bb4173d5a18db81777484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9226a66473fd52fc43a04ab778a5a5ee = $(`<div id="html_9226a66473fd52fc43a04ab778a5a5ee" style="width: 100.0%; height: 100.0%;">- Birebirta - 1049655</div>`)[0];
+                popup_1c3c9bb74e0bb4173d5a18db81777484.setContent(html_9226a66473fd52fc43a04ab778a5a5ee);
+            
+        
+
+        marker_90a5f59c6c51f221267e8b34e89a6185.bindPopup(popup_1c3c9bb74e0bb4173d5a18db81777484)
+        ;
+
+        
+    
+    
+            var marker_4255a23e358f6c228d7d9190e1ce4a27 = L.marker(
+                [6.386754, 38.33593],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_038aa8c4a91f2b8f4a9de9d4dfa217f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c3beb470cdda57e888b9533cfcbcc8d = $(`<div id="html_4c3beb470cdda57e888b9533cfcbcc8d" style="width: 100.0%; height: 100.0%;">- Piyayou - 1049654</div>`)[0];
+                popup_038aa8c4a91f2b8f4a9de9d4dfa217f2.setContent(html_4c3beb470cdda57e888b9533cfcbcc8d);
+            
+        
+
+        marker_4255a23e358f6c228d7d9190e1ce4a27.bindPopup(popup_038aa8c4a91f2b8f4a9de9d4dfa217f2)
+        ;
+
+        
+    
+    
+            var marker_3c4b6ba46f2c43b260bbb14c719352ca = L.marker(
+                [6.301294, 38.336684],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f1ee5001687aaae8ed85f57476c4dcc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_455adf3530efe23a30a3aaf7eeb32813 = $(`<div id="html_455adf3530efe23a30a3aaf7eeb32813" style="width: 100.0%; height: 100.0%;">- Ginda 01 - 1049638</div>`)[0];
+                popup_f1ee5001687aaae8ed85f57476c4dcc1.setContent(html_455adf3530efe23a30a3aaf7eeb32813);
+            
+        
+
+        marker_3c4b6ba46f2c43b260bbb14c719352ca.bindPopup(popup_f1ee5001687aaae8ed85f57476c4dcc1)
+        ;
+
+        
+    
+    
+            var marker_b27b6f9c8a82be67098c4cb0a1849c90 = L.marker(
+                [6.287308, 38.331686],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_df7cbfd4184682141bee502f2020db72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f4b22add2e4e239b5194ae12af33ba5 = $(`<div id="html_1f4b22add2e4e239b5194ae12af33ba5" style="width: 100.0%; height: 100.0%;">- Baloa - 1049637</div>`)[0];
+                popup_df7cbfd4184682141bee502f2020db72.setContent(html_1f4b22add2e4e239b5194ae12af33ba5);
+            
+        
+
+        marker_b27b6f9c8a82be67098c4cb0a1849c90.bindPopup(popup_df7cbfd4184682141bee502f2020db72)
+        ;
+
+        
+    
+    
+            var marker_3a72c9baa00bb67dfe382c88947487b3 = L.marker(
+                [6.300324, 38.337901],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9a69feaa04fe202ddc0fa06fe729b4e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ca3e5d78305b8b048cdc2dd90b12bd0 = $(`<div id="html_4ca3e5d78305b8b048cdc2dd90b12bd0" style="width: 100.0%; height: 100.0%;">- Goro 01 - 1049636</div>`)[0];
+                popup_9a69feaa04fe202ddc0fa06fe729b4e5.setContent(html_4ca3e5d78305b8b048cdc2dd90b12bd0);
+            
+        
+
+        marker_3a72c9baa00bb67dfe382c88947487b3.bindPopup(popup_9a69feaa04fe202ddc0fa06fe729b4e5)
+        ;
+
+        
+    
+    
+            var marker_dbde7d13836fc13ffc701cc147b987e4 = L.marker(
+                [6.347873, 38.343588],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_3b0f5651c8d797bc09589b669655cd5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfea0fe2a0765c0d02228f0372365c0b = $(`<div id="html_bfea0fe2a0765c0d02228f0372365c0b" style="width: 100.0%; height: 100.0%;">- Aniba-Ogona - 1049635</div>`)[0];
+                popup_3b0f5651c8d797bc09589b669655cd5e.setContent(html_bfea0fe2a0765c0d02228f0372365c0b);
+            
+        
+
+        marker_dbde7d13836fc13ffc701cc147b987e4.bindPopup(popup_3b0f5651c8d797bc09589b669655cd5e)
+        ;
+
+        
+    
+    
+            var marker_c55822c38d5c9f4155afa3d63c33ce60 = L.marker(
+                [6.313455, 37.482625],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e900b39b4cde6f74a38ba219dabe3fb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac5f1d03a8ae323a9771191bb5b9d68a = $(`<div id="html_ac5f1d03a8ae323a9771191bb5b9d68a" style="width: 100.0%; height: 100.0%;">- Gawiga - 1049569</div>`)[0];
+                popup_e900b39b4cde6f74a38ba219dabe3fb2.setContent(html_ac5f1d03a8ae323a9771191bb5b9d68a);
+            
+        
+
+        marker_c55822c38d5c9f4155afa3d63c33ce60.bindPopup(popup_e900b39b4cde6f74a38ba219dabe3fb2)
+        ;
+
+        
+    
+    
+            var marker_d1f94dfa404aef3b753ee666544a8354 = L.marker(
+                [8.391224, 38.50691],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c19526edecec54de8e49f447b2e635e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5987bdd9597168f8ce55bd286fbc52a = $(`<div id="html_d5987bdd9597168f8ce55bd286fbc52a" style="width: 100.0%; height: 100.0%;">- Fato - 1050356</div>`)[0];
+                popup_c19526edecec54de8e49f447b2e635e9.setContent(html_d5987bdd9597168f8ce55bd286fbc52a);
+            
+        
+
+        marker_d1f94dfa404aef3b753ee666544a8354.bindPopup(popup_c19526edecec54de8e49f447b2e635e9)
+        ;
+
+        
+    
+    
+            var marker_9f00b9f03e980299ecd6ebddfb09f34c = L.marker(
+                [8.374047, 38.598595],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_e94e400e2d9b5009171278ff717cc8b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97beec681331483b991a872a371cfa77 = $(`<div id="html_97beec681331483b991a872a371cfa77" style="width: 100.0%; height: 100.0%;">- 95 - 1050336</div>`)[0];
+                popup_e94e400e2d9b5009171278ff717cc8b1.setContent(html_97beec681331483b991a872a371cfa77);
+            
+        
+
+        marker_9f00b9f03e980299ecd6ebddfb09f34c.bindPopup(popup_e94e400e2d9b5009171278ff717cc8b1)
+        ;
+
+        
+    
+    
+            var marker_a44cecda28f049b25f175e40ced551f9 = L.marker(
+                [8.35767, 38.58745],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_296f0fc2f623e6cf7f58fca35229eac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72aff8ccf07fb190e744d16010f79929 = $(`<div id="html_72aff8ccf07fb190e744d16010f79929" style="width: 100.0%; height: 100.0%;">- Dire 1 - 1050335</div>`)[0];
+                popup_296f0fc2f623e6cf7f58fca35229eac6.setContent(html_72aff8ccf07fb190e744d16010f79929);
+            
+        
+
+        marker_a44cecda28f049b25f175e40ced551f9.bindPopup(popup_296f0fc2f623e6cf7f58fca35229eac6)
+        ;
+
+        
+    
+    
+            var marker_f3d9a0eab873fc4e0da7f457e597a64a = L.marker(
+                [8.360863, 38.552304],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b7486dcac71c6c63619d3febfb50425b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b19c332526d1a44092f506dddf90e8b = $(`<div id="html_6b19c332526d1a44092f506dddf90e8b" style="width: 100.0%; height: 100.0%;">- Gortti - 1050334</div>`)[0];
+                popup_b7486dcac71c6c63619d3febfb50425b.setContent(html_6b19c332526d1a44092f506dddf90e8b);
+            
+        
+
+        marker_f3d9a0eab873fc4e0da7f457e597a64a.bindPopup(popup_b7486dcac71c6c63619d3febfb50425b)
+        ;
+
+        
+    
+    
+            var marker_852bab889456ef26964985c20cf088d4 = L.marker(
+                [7.762899, 38.04151],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f269ae7f7bd63e25271bdda7e35e46b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49aed65192f7a53721ed39b1d066f053 = $(`<div id="html_49aed65192f7a53721ed39b1d066f053" style="width: 100.0%; height: 100.0%;">- Meser - 1050414</div>`)[0];
+                popup_f269ae7f7bd63e25271bdda7e35e46b7.setContent(html_49aed65192f7a53721ed39b1d066f053);
+            
+        
+
+        marker_852bab889456ef26964985c20cf088d4.bindPopup(popup_f269ae7f7bd63e25271bdda7e35e46b7)
+        ;
+
+        
+    
+    
+            var marker_ac8fe2235dfc1914c49471154378237b = L.marker(
+                [7.805956, 38.018044],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_11cb73a7331666c1d6e2fd64d6cb2be1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68803b1a244a7639a64643a5daccbbe7 = $(`<div id="html_68803b1a244a7639a64643a5daccbbe7" style="width: 100.0%; height: 100.0%;">- Kember - 1050413</div>`)[0];
+                popup_11cb73a7331666c1d6e2fd64d6cb2be1.setContent(html_68803b1a244a7639a64643a5daccbbe7);
+            
+        
+
+        marker_ac8fe2235dfc1914c49471154378237b.bindPopup(popup_11cb73a7331666c1d6e2fd64d6cb2be1)
+        ;
+
+        
+    
+    
+            var marker_bf933db07c02ab3ad21fdbba5ab6abb0 = L.marker(
+                [7.787178, 38.02386],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_bcb9d11bc390441abd39bb3f5fec43ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8af7709af9af97aa49086d335ceb79d4 = $(`<div id="html_8af7709af9af97aa49086d335ceb79d4" style="width: 100.0%; height: 100.0%;">- Shomo school - 1050406</div>`)[0];
+                popup_bcb9d11bc390441abd39bb3f5fec43ec.setContent(html_8af7709af9af97aa49086d335ceb79d4);
+            
+        
+
+        marker_bf933db07c02ab3ad21fdbba5ab6abb0.bindPopup(popup_bcb9d11bc390441abd39bb3f5fec43ec)
+        ;
+
+        
+    
+    
+            var marker_6cffd3f29a9480e45e62c98929665d5d = L.marker(
+                [7.760489, 37.997901],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7676eb521136c698a066197e6a6fd5ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_291100eaac6902dde5e20aa9d1d9f557 = $(`<div id="html_291100eaac6902dde5e20aa9d1d9f557" style="width: 100.0%; height: 100.0%;">- Kobo - 1050405</div>`)[0];
+                popup_7676eb521136c698a066197e6a6fd5ab.setContent(html_291100eaac6902dde5e20aa9d1d9f557);
+            
+        
+
+        marker_6cffd3f29a9480e45e62c98929665d5d.bindPopup(popup_7676eb521136c698a066197e6a6fd5ab)
+        ;
+
+        
+    
+    
+            var marker_ec3319a875c90fff4c97d3fd3a87cabf = L.marker(
+                [7.730751, 37.998117],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c6bb557a500d13cc0a5b1e9c60b3a194 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d190258a606118eb94521d9c149ebda = $(`<div id="html_3d190258a606118eb94521d9c149ebda" style="width: 100.0%; height: 100.0%;">- Kombole - 1050404</div>`)[0];
+                popup_c6bb557a500d13cc0a5b1e9c60b3a194.setContent(html_3d190258a606118eb94521d9c149ebda);
+            
+        
+
+        marker_ec3319a875c90fff4c97d3fd3a87cabf.bindPopup(popup_c6bb557a500d13cc0a5b1e9c60b3a194)
+        ;
+
+        
+    
+    
+            var marker_b3bb0cbeb2d21b990a3097708cc44632 = L.marker(
+                [7.732328, 37.998915],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0567ee717e170f8afff77899ed9a9652 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b6d0855e94cdb641bfb6aa5953c4914 = $(`<div id="html_4b6d0855e94cdb641bfb6aa5953c4914" style="width: 100.0%; height: 100.0%;">- Kombole - 1050403</div>`)[0];
+                popup_0567ee717e170f8afff77899ed9a9652.setContent(html_4b6d0855e94cdb641bfb6aa5953c4914);
+            
+        
+
+        marker_b3bb0cbeb2d21b990a3097708cc44632.bindPopup(popup_0567ee717e170f8afff77899ed9a9652)
+        ;
+
+        
+    
+    
+            var marker_638065f39d1d0f89a807badc851cedb9 = L.marker(
+                [7.763486, 38.043497],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_0f73b3d87e94e9844174b816a95afdf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3acf24109e1005bb8e24dadf2868aa = $(`<div id="html_2b3acf24109e1005bb8e24dadf2868aa" style="width: 100.0%; height: 100.0%;">- Mesere 2 - 1050402</div>`)[0];
+                popup_0f73b3d87e94e9844174b816a95afdf5.setContent(html_2b3acf24109e1005bb8e24dadf2868aa);
+            
+        
+
+        marker_638065f39d1d0f89a807badc851cedb9.bindPopup(popup_0f73b3d87e94e9844174b816a95afdf5)
+        ;
+
+        
+    
+    
+            var marker_712db33d2d5a4667ec613dbc7ef83adc = L.marker(
+                [7.763503, 38.039783],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_ab0f5a44e618600c73ad8d93bb1b899b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6c95e838a10a8b7b3611e05b9b62bf0 = $(`<div id="html_b6c95e838a10a8b7b3611e05b9b62bf0" style="width: 100.0%; height: 100.0%;">- Azere - 1050401</div>`)[0];
+                popup_ab0f5a44e618600c73ad8d93bb1b899b.setContent(html_b6c95e838a10a8b7b3611e05b9b62bf0);
+            
+        
+
+        marker_712db33d2d5a4667ec613dbc7ef83adc.bindPopup(popup_ab0f5a44e618600c73ad8d93bb1b899b)
+        ;
+
+        
+    
+    
+            var marker_1a5a533ab5eeaa304555c8ce529a8661 = L.marker(
+                [7.727389, 38.022964],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_aeb60ecb95801424f4b3b7e498e6d724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bee38f375ecc222adcbac9f1ce491b0 = $(`<div id="html_1bee38f375ecc222adcbac9f1ce491b0" style="width: 100.0%; height: 100.0%;">- Laye Gerena - 1050392</div>`)[0];
+                popup_aeb60ecb95801424f4b3b7e498e6d724.setContent(html_1bee38f375ecc222adcbac9f1ce491b0);
+            
+        
+
+        marker_1a5a533ab5eeaa304555c8ce529a8661.bindPopup(popup_aeb60ecb95801424f4b3b7e498e6d724)
+        ;
+
+        
+    
+    
+            var marker_be7a25612d7b0ed7cc70a3721f21bb12 = L.marker(
+                [7.700901, 37.990725],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_7b582bc1aba63ed66c6ccf560782123d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f59dd1a131d702a0c9f31f3f9e66fd78 = $(`<div id="html_f59dd1a131d702a0c9f31f3f9e66fd78" style="width: 100.0%; height: 100.0%;">- Elmora - 1050391</div>`)[0];
+                popup_7b582bc1aba63ed66c6ccf560782123d.setContent(html_f59dd1a131d702a0c9f31f3f9e66fd78);
+            
+        
+
+        marker_be7a25612d7b0ed7cc70a3721f21bb12.bindPopup(popup_7b582bc1aba63ed66c6ccf560782123d)
+        ;
+
+        
+    
+    
+            var marker_98b00dd06a22c57d010ad4bff6176a1d = L.marker(
+                [7.773903, 37.989877],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_72504ce8669f0f7eee486d03ef9efe60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ca040eb73eabf8a535c7b6b9bd9adaa = $(`<div id="html_9ca040eb73eabf8a535c7b6b9bd9adaa" style="width: 100.0%; height: 100.0%;">- Fanano - 1050388</div>`)[0];
+                popup_72504ce8669f0f7eee486d03ef9efe60.setContent(html_9ca040eb73eabf8a535c7b6b9bd9adaa);
+            
+        
+
+        marker_98b00dd06a22c57d010ad4bff6176a1d.bindPopup(popup_72504ce8669f0f7eee486d03ef9efe60)
+        ;
+
+        
+    
+    
+            var marker_12f3c40038c9d7fc14a1e1a2ef1d4852 = L.marker(
+                [7.747002, 38.038795],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_cea38864c6729e4097406ab16b6a43e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f13e4f0b916b7632226dd17e0fff17e = $(`<div id="html_4f13e4f0b916b7632226dd17e0fff17e" style="width: 100.0%; height: 100.0%;">- Laye yemene - 1050387</div>`)[0];
+                popup_cea38864c6729e4097406ab16b6a43e3.setContent(html_4f13e4f0b916b7632226dd17e0fff17e);
+            
+        
+
+        marker_12f3c40038c9d7fc14a1e1a2ef1d4852.bindPopup(popup_cea38864c6729e4097406ab16b6a43e3)
+        ;
+
+        
+    
+    
+            var marker_2886f6a54c06278fac31e433fc2f1dbc = L.marker(
+                [7.778839, 37.990581],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_a829709f70e8cbfbaba1506086bec3c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2328a812c7ac4e7dcdcf27aec533b63d = $(`<div id="html_2328a812c7ac4e7dcdcf27aec533b63d" style="width: 100.0%; height: 100.0%;">- Gabete - 1050383</div>`)[0];
+                popup_a829709f70e8cbfbaba1506086bec3c7.setContent(html_2328a812c7ac4e7dcdcf27aec533b63d);
+            
+        
+
+        marker_2886f6a54c06278fac31e433fc2f1dbc.bindPopup(popup_a829709f70e8cbfbaba1506086bec3c7)
+        ;
+
+        
+    
+    
+            var marker_bc629ec22bf1e68960cbd5fd7994143e = L.marker(
+                [7.886564, 38.057998],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f23665cce7efe93f00a8f7760d4d90fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d24cc63ad5cd80430bd9fd0d7d955b8d = $(`<div id="html_d24cc63ad5cd80430bd9fd0d7d955b8d" style="width: 100.0%; height: 100.0%;">- Shado - 1050379</div>`)[0];
+                popup_f23665cce7efe93f00a8f7760d4d90fc.setContent(html_d24cc63ad5cd80430bd9fd0d7d955b8d);
+            
+        
+
+        marker_bc629ec22bf1e68960cbd5fd7994143e.bindPopup(popup_f23665cce7efe93f00a8f7760d4d90fc)
+        ;
+
+        
+    
+    
+            var marker_c1f163355ff44fe1c27d7a4f90aba20f = L.marker(
+                [7.889988, 38.059516],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_92c283fb49239f5805b015e3e271de2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4ed32583004d56b38e12ddad5f648bc = $(`<div id="html_b4ed32583004d56b38e12ddad5f648bc" style="width: 100.0%; height: 100.0%;">- Zenuta - 1050378</div>`)[0];
+                popup_92c283fb49239f5805b015e3e271de2e.setContent(html_b4ed32583004d56b38e12ddad5f648bc);
+            
+        
+
+        marker_c1f163355ff44fe1c27d7a4f90aba20f.bindPopup(popup_92c283fb49239f5805b015e3e271de2e)
+        ;
+
+        
+    
+    
+            var marker_5babb610ebc6536e08bf226cf314f778 = L.marker(
+                [7.890639, 38.061772],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_b0e2a4702cc7676a54a69e5240f4d17a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d96fbae989add08423e7d32c0824aaaa = $(`<div id="html_d96fbae989add08423e7d32c0824aaaa" style="width: 100.0%; height: 100.0%;">- Sohe - 1050377</div>`)[0];
+                popup_b0e2a4702cc7676a54a69e5240f4d17a.setContent(html_d96fbae989add08423e7d32c0824aaaa);
+            
+        
+
+        marker_5babb610ebc6536e08bf226cf314f778.bindPopup(popup_b0e2a4702cc7676a54a69e5240f4d17a)
+        ;
+
+        
+    
+    
+            var marker_015dfd35e4457d94e8dc624a1431511d = L.marker(
+                [7.818718, 38.03935],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9b905cc0a08f0e0272e81f23eff57780 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5a685be6a855175c9b004bbc5b5a0b8 = $(`<div id="html_b5a685be6a855175c9b004bbc5b5a0b8" style="width: 100.0%; height: 100.0%;">- Tache senen - 1050376</div>`)[0];
+                popup_9b905cc0a08f0e0272e81f23eff57780.setContent(html_b5a685be6a855175c9b004bbc5b5a0b8);
+            
+        
+
+        marker_015dfd35e4457d94e8dc624a1431511d.bindPopup(popup_9b905cc0a08f0e0272e81f23eff57780)
+        ;
+
+        
+    
+    
+            var marker_c0b5555232146586500c9d61e503a306 = L.marker(
+                [7.816558, 38.045344],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f3ae31f6ac69e7b0a7867d51d290a706 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db58e62e2dbab7bae7a063c4b95c8cff = $(`<div id="html_db58e62e2dbab7bae7a063c4b95c8cff" style="width: 100.0%; height: 100.0%;">- Ayigeba school - 1050375</div>`)[0];
+                popup_f3ae31f6ac69e7b0a7867d51d290a706.setContent(html_db58e62e2dbab7bae7a063c4b95c8cff);
+            
+        
+
+        marker_c0b5555232146586500c9d61e503a306.bindPopup(popup_f3ae31f6ac69e7b0a7867d51d290a706)
+        ;
+
+        
+    
+    
+            var marker_92129f58a292331cf2bc311a1cd5f5b6 = L.marker(
+                [7.916947, 38.082758],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4b8eaecfb19f164cc6be2f094ae3e595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d91fa52bd464cf8d422a25c674934f62 = $(`<div id="html_d91fa52bd464cf8d422a25c674934f62" style="width: 100.0%; height: 100.0%;">- Loke - 1050374</div>`)[0];
+                popup_4b8eaecfb19f164cc6be2f094ae3e595.setContent(html_d91fa52bd464cf8d422a25c674934f62);
+            
+        
+
+        marker_92129f58a292331cf2bc311a1cd5f5b6.bindPopup(popup_4b8eaecfb19f164cc6be2f094ae3e595)
+        ;
+
+        
+    
+    
+            var marker_9f45ef411a32109df237c0fd0b6460ac = L.marker(
+                [7.913393, 38.106189],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_2f12e60cd735cabac72bfc26be132201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_107e9067b29985ea559c11f7e17fb17a = $(`<div id="html_107e9067b29985ea559c11f7e17fb17a" style="width: 100.0%; height: 100.0%;">- Gishesha - 1050373</div>`)[0];
+                popup_2f12e60cd735cabac72bfc26be132201.setContent(html_107e9067b29985ea559c11f7e17fb17a);
+            
+        
+
+        marker_9f45ef411a32109df237c0fd0b6460ac.bindPopup(popup_2f12e60cd735cabac72bfc26be132201)
+        ;
+
+        
+    
+    
+            var marker_eccb0d1aade700c3741c097bed452d32 = L.marker(
+                [7.921563, 38.106455],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_69e898118adc20e7226cba56ed080ffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba84151aa11b41869077124b177f7cc9 = $(`<div id="html_ba84151aa11b41869077124b177f7cc9" style="width: 100.0%; height: 100.0%;">- Uge - 1050372</div>`)[0];
+                popup_69e898118adc20e7226cba56ed080ffb.setContent(html_ba84151aa11b41869077124b177f7cc9);
+            
+        
+
+        marker_eccb0d1aade700c3741c097bed452d32.bindPopup(popup_69e898118adc20e7226cba56ed080ffb)
+        ;
+
+        
+    
+    
+            var marker_c7d5de68bd51f59f9eb1ad935b22dc35 = L.marker(
+                [7.794029, 38.001678],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_be1a9ab172bd1928d0409eebf9dcaced = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5158814557cb6ee08ae68991f48a3c60 = $(`<div id="html_5158814557cb6ee08ae68991f48a3c60" style="width: 100.0%; height: 100.0%;">- Ateta - 1050363</div>`)[0];
+                popup_be1a9ab172bd1928d0409eebf9dcaced.setContent(html_5158814557cb6ee08ae68991f48a3c60);
+            
+        
+
+        marker_c7d5de68bd51f59f9eb1ad935b22dc35.bindPopup(popup_be1a9ab172bd1928d0409eebf9dcaced)
+        ;
+
+        
+    
+    
+            var marker_c8235068408408d17eff481b918c3546 = L.marker(
+                [7.798792, 38.003449],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8fe996bf89ab128d400bf14963431cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0735c6f7aa3a1e991f9305484e9dc5a = $(`<div id="html_f0735c6f7aa3a1e991f9305484e9dc5a" style="width: 100.0%; height: 100.0%;">- Dino - 1050362</div>`)[0];
+                popup_8fe996bf89ab128d400bf14963431cd5.setContent(html_f0735c6f7aa3a1e991f9305484e9dc5a);
+            
+        
+
+        marker_c8235068408408d17eff481b918c3546.bindPopup(popup_8fe996bf89ab128d400bf14963431cd5)
+        ;
+
+        
+    
+    
+            var marker_a98a92d52881ad69e2a0ee4fc5de39fd = L.marker(
+                [7.787415, 38.009746],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1f1f617356888566e35729fe9b2c8960 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b75d0156cb35dd3e9ff72d9ba502bb3a = $(`<div id="html_b75d0156cb35dd3e9ff72d9ba502bb3a" style="width: 100.0%; height: 100.0%;">- Tach drawit 1 - 1050361</div>`)[0];
+                popup_1f1f617356888566e35729fe9b2c8960.setContent(html_b75d0156cb35dd3e9ff72d9ba502bb3a);
+            
+        
+
+        marker_a98a92d52881ad69e2a0ee4fc5de39fd.bindPopup(popup_1f1f617356888566e35729fe9b2c8960)
+        ;
+
+        
+    
+    
+            var marker_db7d3783cb6e6babb060d762acfa0b62 = L.marker(
+                [7.790217, 38.011077],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_d199a3bface0ae3158c6b7a60c79b63e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89b6203b9fe0f485bdd88de33ce16f45 = $(`<div id="html_89b6203b9fe0f485bdd88de33ce16f45" style="width: 100.0%; height: 100.0%;">- Kechira - 1050360</div>`)[0];
+                popup_d199a3bface0ae3158c6b7a60c79b63e.setContent(html_89b6203b9fe0f485bdd88de33ce16f45);
+            
+        
+
+        marker_db7d3783cb6e6babb060d762acfa0b62.bindPopup(popup_d199a3bface0ae3158c6b7a60c79b63e)
+        ;
+
+        
+    
+    
+            var marker_00f3f39c8149022562d2cfc3c33696ce = L.marker(
+                [7.788257, 38.010528],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_4b4bdfc5b1d893a5eda671a2e462db6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86bafb9e042585775655fc1122b9ef30 = $(`<div id="html_86bafb9e042585775655fc1122b9ef30" style="width: 100.0%; height: 100.0%;">- Kilito - 1050359</div>`)[0];
+                popup_4b4bdfc5b1d893a5eda671a2e462db6c.setContent(html_86bafb9e042585775655fc1122b9ef30);
+            
+        
+
+        marker_00f3f39c8149022562d2cfc3c33696ce.bindPopup(popup_4b4bdfc5b1d893a5eda671a2e462db6c)
+        ;
+
+        
+    
+    
+            var marker_390731f0228b03a59be17051f0702f06 = L.marker(
+                [7.792856, 38.001592],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f635546d68a9101ca006f2364f419447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6368d95ed55765c9bfe6d3d4238c3f51 = $(`<div id="html_6368d95ed55765c9bfe6d3d4238c3f51" style="width: 100.0%; height: 100.0%;">- Tatebar - 1050358</div>`)[0];
+                popup_f635546d68a9101ca006f2364f419447.setContent(html_6368d95ed55765c9bfe6d3d4238c3f51);
+            
+        
+
+        marker_390731f0228b03a59be17051f0702f06.bindPopup(popup_f635546d68a9101ca006f2364f419447)
+        ;
+
+        
+    
+    
+            var marker_746f0c9bae2938e642b4439d33aa53ad = L.marker(
+                [7.787174, 38.010338],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_25452c0823607afd59c3fa6a120bc452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db8f25a0d14c0d1a7c4aa7dad037ee3a = $(`<div id="html_db8f25a0d14c0d1a7c4aa7dad037ee3a" style="width: 100.0%; height: 100.0%;">- Tache Derawit - 1050357</div>`)[0];
+                popup_25452c0823607afd59c3fa6a120bc452.setContent(html_db8f25a0d14c0d1a7c4aa7dad037ee3a);
+            
+        
+
+        marker_746f0c9bae2938e642b4439d33aa53ad.bindPopup(popup_25452c0823607afd59c3fa6a120bc452)
+        ;
+
+        
+    
+    
+            var marker_892e617158367a2e547d86f45640ad96 = L.marker(
+                [8.04173, 38.184475],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_1d149735072f108bce38b25d351bab90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97cd5cd116d54a66323cfed2cd8638aa = $(`<div id="html_97cd5cd116d54a66323cfed2cd8638aa" style="width: 100.0%; height: 100.0%;">- Chakife 2 - 1050295</div>`)[0];
+                popup_1d149735072f108bce38b25d351bab90.setContent(html_97cd5cd116d54a66323cfed2cd8638aa);
+            
+        
+
+        marker_892e617158367a2e547d86f45640ad96.bindPopup(popup_1d149735072f108bce38b25d351bab90)
+        ;
+
+        
+    
+    
+            var marker_85a638bdaf29958b4b3eff9796aaefdd = L.marker(
+                [8.045447, 38.178478],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_de43d04703d3276a9fb4db380a85a3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_824158d9f510ff4a8b4a8ffc62397bfa = $(`<div id="html_824158d9f510ff4a8b4a8ffc62397bfa" style="width: 100.0%; height: 100.0%;">- Chakife 1 - 1050294</div>`)[0];
+                popup_de43d04703d3276a9fb4db380a85a3af.setContent(html_824158d9f510ff4a8b4a8ffc62397bfa);
+            
+        
+
+        marker_85a638bdaf29958b4b3eff9796aaefdd.bindPopup(popup_de43d04703d3276a9fb4db380a85a3af)
+        ;
+
+        
+    
+    
+            var marker_dba8489dee9611e3131fca6557d857d0 = L.marker(
+                [8.044238, 38.171656],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_13f3678c8b18f5a2497e68db2553ef51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c0671381e0c400e32a9a6c62a130590 = $(`<div id="html_9c0671381e0c400e32a9a6c62a130590" style="width: 100.0%; height: 100.0%;">- Widade Chakife - 1050293</div>`)[0];
+                popup_13f3678c8b18f5a2497e68db2553ef51.setContent(html_9c0671381e0c400e32a9a6c62a130590);
+            
+        
+
+        marker_dba8489dee9611e3131fca6557d857d0.bindPopup(popup_13f3678c8b18f5a2497e68db2553ef51)
+        ;
+
+        
+    
+    
+            var marker_599a03c9ccdbb42dc7bb0575b82c5030 = L.marker(
+                [8.08634, 38.198606],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f57bebf6abb1cec1f7a71aab2055d3a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2ae8177dea3dae820054625ba9e74a5 = $(`<div id="html_e2ae8177dea3dae820054625ba9e74a5" style="width: 100.0%; height: 100.0%;">- Amaredi - 1050291</div>`)[0];
+                popup_f57bebf6abb1cec1f7a71aab2055d3a3.setContent(html_e2ae8177dea3dae820054625ba9e74a5);
+            
+        
+
+        marker_599a03c9ccdbb42dc7bb0575b82c5030.bindPopup(popup_f57bebf6abb1cec1f7a71aab2055d3a3)
+        ;
+
+        
+    
+    
+            var marker_5aec2daf608bacf9f0a81927799334f8 = L.marker(
+                [8.086601, 38.20295],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_9dc762149cb3c2f71031ebe085142e0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40eb71af7cdf6361fc4ffcbdc1d00928 = $(`<div id="html_40eb71af7cdf6361fc4ffcbdc1d00928" style="width: 100.0%; height: 100.0%;">- Selame - 1050282</div>`)[0];
+                popup_9dc762149cb3c2f71031ebe085142e0f.setContent(html_40eb71af7cdf6361fc4ffcbdc1d00928);
+            
+        
+
+        marker_5aec2daf608bacf9f0a81927799334f8.bindPopup(popup_9dc762149cb3c2f71031ebe085142e0f)
+        ;
+
+        
+    
+    
+            var marker_aa0d7ef623d748ad0164cc34b471abde = L.marker(
+                [8.075247, 38.187718],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_8873d36f2b1ed65580522d78d8582843 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d1991197744c80be764e2a38456b9c2 = $(`<div id="html_0d1991197744c80be764e2a38456b9c2" style="width: 100.0%; height: 100.0%;">- Abero village - 1050281</div>`)[0];
+                popup_8873d36f2b1ed65580522d78d8582843.setContent(html_0d1991197744c80be764e2a38456b9c2);
+            
+        
+
+        marker_aa0d7ef623d748ad0164cc34b471abde.bindPopup(popup_8873d36f2b1ed65580522d78d8582843)
+        ;
+
+        
+    
+    
+            var marker_23e8716d26e7d030f76ae49ec75f18e0 = L.marker(
+                [8.091681, 38.25866],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_05e666e97be10fa698639b735429578b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_987b46845e35f56e7b9a9b80a43ab583 = $(`<div id="html_987b46845e35f56e7b9a9b80a43ab583" style="width: 100.0%; height: 100.0%;">- Zogo 2 - 1050279</div>`)[0];
+                popup_05e666e97be10fa698639b735429578b.setContent(html_987b46845e35f56e7b9a9b80a43ab583);
+            
+        
+
+        marker_23e8716d26e7d030f76ae49ec75f18e0.bindPopup(popup_05e666e97be10fa698639b735429578b)
+        ;
+
+        
+    
+    
+            var marker_24be87a6ae12930fac09d60bc98af202 = L.marker(
+                [8.091725, 38.256968],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_c925fcc94791a376b81aa905647755c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22673c553419dc393b1aa9f44c6e505e = $(`<div id="html_22673c553419dc393b1aa9f44c6e505e" style="width: 100.0%; height: 100.0%;">- Zogo - 1050278</div>`)[0];
+                popup_c925fcc94791a376b81aa905647755c1.setContent(html_22673c553419dc393b1aa9f44c6e505e);
+            
+        
+
+        marker_24be87a6ae12930fac09d60bc98af202.bindPopup(popup_c925fcc94791a376b81aa905647755c1)
+        ;
+
+        
+    
+    
+            var marker_890a3df593a5bc0386f7d39242d49fb1 = L.marker(
+                [8.073649, 38.248356],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_99a329666280f5376c69f8fee1d055fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_269f7af29d4115068fd853a030a663cf = $(`<div id="html_269f7af29d4115068fd853a030a663cf" style="width: 100.0%; height: 100.0%;">- Kecha Beri - 1050277</div>`)[0];
+                popup_99a329666280f5376c69f8fee1d055fd.setContent(html_269f7af29d4115068fd853a030a663cf);
+            
+        
+
+        marker_890a3df593a5bc0386f7d39242d49fb1.bindPopup(popup_99a329666280f5376c69f8fee1d055fd)
+        ;
+
+        
+    
+    
+            var marker_6d3094e3b73d1d5baa6bbd3b12b4fa4a = L.marker(
+                [8.070927, 38.247823],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_adfc260b8312d339b93a253bf4e237a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b3141f61e9263d16289bf18c1d7eb18 = $(`<div id="html_1b3141f61e9263d16289bf18c1d7eb18" style="width: 100.0%; height: 100.0%;">- Wuribe - 1050276</div>`)[0];
+                popup_adfc260b8312d339b93a253bf4e237a1.setContent(html_1b3141f61e9263d16289bf18c1d7eb18);
+            
+        
+
+        marker_6d3094e3b73d1d5baa6bbd3b12b4fa4a.bindPopup(popup_adfc260b8312d339b93a253bf4e237a1)
+        ;
+
+        
+    
+    
+            var marker_d70de4b29bd359bc86e54b0880d48d45 = L.marker(
+                [8.08712, 38.257906],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_da1ff20fec8022ada857bf65b5d90e9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809ff4f1dca79c5a1158292c836ef508 = $(`<div id="html_809ff4f1dca79c5a1158292c836ef508" style="width: 100.0%; height: 100.0%;">- Enisilasi - 1050267</div>`)[0];
+                popup_da1ff20fec8022ada857bf65b5d90e9a.setContent(html_809ff4f1dca79c5a1158292c836ef508);
+            
+        
+
+        marker_d70de4b29bd359bc86e54b0880d48d45.bindPopup(popup_da1ff20fec8022ada857bf65b5d90e9a)
+        ;
+
+        
+    
+    
+            var marker_29e43e9f4365f4a1a089f2912901012e = L.marker(
+                [7.922073, 36.08574],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_f9e9386040061637591cf033a9c2e1b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1097b177f42887ca706a6fcf213659f3 = $(`<div id="html_1097b177f42887ca706a6fcf213659f3" style="width: 100.0%; height: 100.0%;">Ethiopia - Cole - 1047794</div>`)[0];
+                popup_f9e9386040061637591cf033a9c2e1b9.setContent(html_1097b177f42887ca706a6fcf213659f3);
+            
+        
+
+        marker_29e43e9f4365f4a1a089f2912901012e.bindPopup(popup_f9e9386040061637591cf033a9c2e1b9)
+        ;
+
+        
+    
+    
+            var marker_79640a8ce9536352a302974da5b3d19e = L.marker(
+                [7.851399, 36.021404],
+                {}
+            ).addTo(map_fe43232d5162c8163f9bc3d00d543144);
+        
+    
+        var popup_83bb4e365188cc927bf5a43888ac0cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_123e2a2e69803ca404db3e17ac385d47 = $(`<div id="html_123e2a2e69803ca404db3e17ac385d47" style="width: 100.0%; height: 100.0%;">Ethiopia - Suba - 1047796</div>`)[0];
+                popup_83bb4e365188cc927bf5a43888ac0cc2.setContent(html_123e2a2e69803ca404db3e17ac385d47);
+            
+        
+
+        marker_79640a8ce9536352a302974da5b3d19e.bindPopup(popup_83bb4e365188cc927bf5a43888ac0cc2)
+        ;
+
+        
+    
+</script>
+</html>
